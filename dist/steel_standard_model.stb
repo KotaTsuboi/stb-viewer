@@ -1,0 +1,2612 @@
+<?xml version="1.0" encoding="Shift_JIS"?>  
+<ST_BRIDGE version="1.1.00">
+    <StbCommon globalID="0" project_name="Ｓ標準モデル_01" app_name="SIRCAD_V5" concrete_strength="FC24">
+        <StbReinforcement_Strength_List>
+            <StbReinforcement_Strength D="D10" SD="SD295"/>
+            <StbReinforcement_Strength D="D13" SD="SD295"/>
+            <StbReinforcement_Strength D="D16" SD="SD295"/>
+            <StbReinforcement_Strength D="D19" SD="SD345"/>
+            <StbReinforcement_Strength D="D22" SD="SD345"/>
+            <StbReinforcement_Strength D="D25" SD="SD345"/>
+            <StbReinforcement_Strength D="D29" SD="SD345"/>
+            <StbReinforcement_Strength D="D32" SD="SD490"/>
+            <StbReinforcement_Strength D="D35" SD="SD490"/>
+            <StbReinforcement_Strength D="D38" SD="SD490"/>
+            <StbReinforcement_Strength D="D41" SD="SD490"/>
+        </StbReinforcement_Strength_List>
+    </StbCommon>
+    <StbModel>
+        <StbNodes>
+            <StbNode id="9" x="0" y="0" z="0" kind="ON_GRID"/>
+            <StbNode id="10" x="0" y="5640" z="0" kind="ON_GRID"/>
+            <StbNode id="11" x="0" y="11340" z="0" kind="ON_GRID"/>
+            <StbNode id="12" x="0" y="17040" z="0" kind="ON_GRID"/>
+            <StbNode id="13" x="0" y="22680" z="0" kind="ON_GRID"/>
+            <StbNode id="16" x="10317" y="0" z="0" kind="ON_GRID"/>
+            <StbNode id="17" x="10317" y="5640" z="0" kind="ON_GRID"/>
+            <StbNode id="18" x="10317" y="11340" z="0" kind="ON_GRID"/>
+            <StbNode id="19" x="10317" y="17040" z="0" kind="ON_GRID"/>
+            <StbNode id="20" x="10317" y="22680" z="0" kind="ON_GRID"/>
+            <StbNode id="23" x="13480" y="0" z="0" kind="ON_GRID"/>
+            <StbNode id="24" x="13480" y="5640" z="0" kind="ON_GRID"/>
+            <StbNode id="25" x="13480" y="11340" z="0" kind="ON_GRID"/>
+            <StbNode id="26" x="13480" y="17040" z="0" kind="ON_GRID"/>
+            <StbNode id="27" x="13480" y="22680" z="0" kind="ON_GRID"/>
+            <StbNode id="37" x="-1000" y="0" z="4000" kind="ON_GRID"/>
+            <StbNode id="38" x="-1000" y="5640" z="4000" kind="ON_GRID"/>
+            <StbNode id="39" x="-1000" y="11340" z="4000" kind="ON_GRID"/>
+            <StbNode id="40" x="-1000" y="17040" z="4000" kind="ON_GRID"/>
+            <StbNode id="41" x="-1000" y="22680" z="4000" kind="ON_GRID"/>
+            <StbNode id="44" x="0" y="0" z="4000" kind="ON_GRID"/>
+            <StbNode id="45" x="0" y="5640" z="4000" kind="ON_GRID"/>
+            <StbNode id="46" x="0" y="11340" z="4000" kind="ON_GRID"/>
+            <StbNode id="47" x="0" y="17040" z="4000" kind="ON_GRID"/>
+            <StbNode id="48" x="0" y="22680" z="4000" kind="ON_GRID"/>
+            <StbNode id="51" x="10317" y="0" z="4000" kind="ON_GRID"/>
+            <StbNode id="52" x="10317" y="5640" z="4000" kind="ON_GRID"/>
+            <StbNode id="53" x="10317" y="11340" z="4000" kind="ON_GRID"/>
+            <StbNode id="54" x="10317" y="17040" z="4000" kind="ON_GRID"/>
+            <StbNode id="55" x="10317" y="22680" z="4000" kind="ON_GRID"/>
+            <StbNode id="58" x="13480" y="0" z="4000" kind="ON_GRID"/>
+            <StbNode id="59" x="13480" y="5640" z="4000" kind="ON_GRID"/>
+            <StbNode id="60" x="13480" y="11340" z="4000" kind="ON_GRID"/>
+            <StbNode id="61" x="13480" y="17040" z="4000" kind="ON_GRID"/>
+            <StbNode id="62" x="13480" y="22680" z="4000" kind="ON_GRID"/>
+            <StbNode id="72" x="-1000" y="0" z="7700" kind="ON_GRID"/>
+            <StbNode id="73" x="-1000" y="5640" z="7700" kind="ON_GRID"/>
+            <StbNode id="74" x="-1000" y="11340" z="7700" kind="ON_GRID"/>
+            <StbNode id="75" x="-1000" y="17040" z="7700" kind="ON_GRID"/>
+            <StbNode id="76" x="-1000" y="22680" z="7700" kind="ON_GRID"/>
+            <StbNode id="79" x="0" y="0" z="7700" kind="ON_GRID"/>
+            <StbNode id="80" x="0" y="5640" z="7700" kind="ON_GRID"/>
+            <StbNode id="81" x="0" y="11340" z="7700" kind="ON_GRID"/>
+            <StbNode id="82" x="0" y="17040" z="7700" kind="ON_GRID"/>
+            <StbNode id="83" x="0" y="22680" z="7700" kind="ON_GRID"/>
+            <StbNode id="86" x="10317" y="0" z="7700" kind="ON_GRID"/>
+            <StbNode id="87" x="10317" y="5640" z="7700" kind="ON_GRID"/>
+            <StbNode id="88" x="10317" y="11340" z="7700" kind="ON_GRID"/>
+            <StbNode id="89" x="10317" y="17040" z="7700" kind="ON_GRID"/>
+            <StbNode id="90" x="10317" y="22680" z="7700" kind="ON_GRID"/>
+            <StbNode id="93" x="13480" y="0" z="7700" kind="ON_GRID"/>
+            <StbNode id="94" x="13480" y="5640" z="7700" kind="ON_GRID"/>
+            <StbNode id="95" x="13480" y="11340" z="7700" kind="ON_GRID"/>
+            <StbNode id="96" x="13480" y="17040" z="7700" kind="ON_GRID"/>
+            <StbNode id="97" x="13480" y="22680" z="7700" kind="ON_GRID"/>
+            <StbNode id="107" x="-1000" y="0" z="11400" kind="ON_GRID"/>
+            <StbNode id="108" x="-1000" y="5640" z="11400" kind="ON_GRID"/>
+            <StbNode id="109" x="-1000" y="11340" z="11400" kind="ON_GRID"/>
+            <StbNode id="110" x="-1000" y="17040" z="11400" kind="ON_GRID"/>
+            <StbNode id="111" x="-1000" y="22680" z="11400" kind="ON_GRID"/>
+            <StbNode id="114" x="0" y="0" z="11400" kind="ON_GRID"/>
+            <StbNode id="115" x="0" y="5640" z="11400" kind="ON_GRID"/>
+            <StbNode id="116" x="0" y="11340" z="11400" kind="ON_GRID"/>
+            <StbNode id="117" x="0" y="17040" z="11400" kind="ON_GRID"/>
+            <StbNode id="118" x="0" y="22680" z="11400" kind="ON_GRID"/>
+            <StbNode id="121" x="10317" y="0" z="11900" kind="ON_GRID"/>
+            <StbNode id="122" x="10317" y="5640" z="11900" kind="ON_GRID"/>
+            <StbNode id="123" x="10317" y="11340" z="11900" kind="ON_GRID"/>
+            <StbNode id="124" x="10317" y="17040" z="11900" kind="ON_GRID"/>
+            <StbNode id="125" x="10317" y="22680" z="11900" kind="ON_GRID"/>
+            <StbNode id="128" x="13480" y="0" z="11900" kind="ON_GRID"/>
+            <StbNode id="129" x="13480" y="5640" z="11900" kind="ON_GRID"/>
+            <StbNode id="130" x="13480" y="11340" z="11900" kind="ON_GRID"/>
+            <StbNode id="131" x="13480" y="17040" z="11900" kind="ON_GRID"/>
+            <StbNode id="132" x="13480" y="22680" z="11900" kind="ON_GRID"/>
+            <StbNode id="149" x="0" y="0" z="13950" kind="ON_GRID"/>
+            <StbNode id="150" x="0" y="5640" z="13950" kind="ON_GRID"/>
+            <StbNode id="151" x="0" y="11340" z="13950" kind="ON_GRID"/>
+            <StbNode id="152" x="0" y="17040" z="13950" kind="ON_GRID"/>
+            <StbNode id="153" x="0" y="22680" z="13950" kind="ON_GRID"/>
+            <StbNode id="156" x="10317" y="0" z="13950" kind="ON_GRID"/>
+            <StbNode id="157" x="10317" y="5640" z="13950" kind="ON_GRID"/>
+            <StbNode id="158" x="10317" y="11340" z="13950" kind="ON_GRID"/>
+            <StbNode id="159" x="10317" y="17040" z="13950" kind="ON_GRID"/>
+            <StbNode id="160" x="10317" y="22680" z="13950" kind="ON_GRID"/>
+            <StbNode id="163" x="13480" y="0" z="13950" kind="ON_GRID"/>
+            <StbNode id="164" x="13480" y="5640" z="13950" kind="ON_GRID"/>
+            <StbNode id="165" x="13480" y="11340" z="13950" kind="ON_GRID"/>
+            <StbNode id="166" x="13480" y="17040" z="13950" kind="ON_GRID"/>
+            <StbNode id="167" x="13480" y="22680" z="13950" kind="ON_GRID"/>
+            <StbNode id="176" x="-1200" y="0" z="4000" kind="ON_CANTI"/>
+            <StbNode id="177" x="-1200" y="5640" z="4000" kind="ON_CANTI"/>
+            <StbNode id="178" x="-1200" y="11340" z="4000" kind="ON_CANTI"/>
+            <StbNode id="179" x="-1200" y="17040" z="4000" kind="ON_CANTI"/>
+            <StbNode id="180" x="-1200" y="22680" z="4000" kind="ON_CANTI"/>
+            <StbNode id="181" x="-1200" y="0" z="7700" kind="ON_CANTI"/>
+            <StbNode id="182" x="-1200" y="5640" z="7700" kind="ON_CANTI"/>
+            <StbNode id="183" x="-1200" y="11340" z="7700" kind="ON_CANTI"/>
+            <StbNode id="184" x="-1200" y="17040" z="7700" kind="ON_CANTI"/>
+            <StbNode id="185" x="-1200" y="22680" z="7700" kind="ON_CANTI"/>
+            <StbNode id="186" x="-1200" y="0" z="11400" kind="ON_CANTI"/>
+            <StbNode id="187" x="-1200" y="5640" z="11400" kind="ON_CANTI"/>
+            <StbNode id="188" x="-1200" y="11340" z="11400" kind="ON_CANTI"/>
+            <StbNode id="189" x="-1200" y="17040" z="11400" kind="ON_CANTI"/>
+            <StbNode id="190" x="-1200" y="22680" z="11400" kind="ON_CANTI"/>
+            <StbNode id="191" x="8000" y="0" z="0" kind="ON_BEAM" id_member="35"/>
+            <StbNode id="192" x="8000" y="0" z="4000" kind="ON_BEAM" id_member="40"/>
+            <StbNode id="193" x="10417" y="5640" z="0" kind="ON_BEAM" id_member="36"/>
+            <StbNode id="194" x="10417" y="5640" z="4000" kind="ON_BEAM" id_member="41"/>
+            <StbNode id="195" x="11817" y="5640" z="0" kind="OTHER"/>
+            <StbNode id="196" x="11817" y="5640" z="1750" kind="OTHER"/>
+            <StbNode id="197" x="0" y="6440" z="0" kind="ON_BEAM" id_member="62"/>
+            <StbNode id="198" x="0" y="6440" z="4000" kind="ON_BEAM" id_member="65"/>
+            <StbNode id="199" x="0" y="10540" z="0" kind="ON_BEAM" id_member="62"/>
+            <StbNode id="200" x="0" y="10540" z="4000" kind="ON_BEAM" id_member="65"/>
+            <StbNode id="201" x="0" y="12140" z="0" kind="ON_BEAM" id_member="62"/>
+            <StbNode id="202" x="0" y="12140" z="4000" kind="ON_BEAM" id_member="66"/>
+            <StbNode id="203" x="0" y="16240" z="0" kind="ON_BEAM" id_member="62"/>
+            <StbNode id="204" x="0" y="16240" z="4000" kind="ON_BEAM" id_member="66"/>
+            <StbNode id="205" x="10417" y="5640" z="4000" kind="ON_BEAM" id_member="41"/>
+            <StbNode id="206" x="10417" y="5640" z="7700" kind="ON_BEAM" id_member="46"/>
+            <StbNode id="207" x="0" y="6440" z="4000" kind="ON_BEAM" id_member="65"/>
+            <StbNode id="208" x="0" y="6440" z="7700" kind="ON_BEAM" id_member="73"/>
+            <StbNode id="209" x="0" y="10540" z="4000" kind="ON_BEAM" id_member="65"/>
+            <StbNode id="210" x="0" y="10540" z="7700" kind="ON_BEAM" id_member="73"/>
+            <StbNode id="211" x="0" y="12140" z="4000" kind="ON_BEAM" id_member="66"/>
+            <StbNode id="212" x="0" y="12140" z="7700" kind="ON_BEAM" id_member="74"/>
+            <StbNode id="213" x="0" y="16240" z="4000" kind="ON_BEAM" id_member="66"/>
+            <StbNode id="214" x="0" y="16240" z="7700" kind="ON_BEAM" id_member="74"/>
+            <StbNode id="215" x="10417" y="5640" z="7700" kind="ON_BEAM" id_member="46"/>
+            <StbNode id="216" x="10417" y="5640" z="11900" kind="ON_BEAM" id_member="53"/>
+            <StbNode id="217" x="0" y="6440" z="7700" kind="ON_BEAM" id_member="73"/>
+            <StbNode id="218" x="0" y="6440" z="11400" kind="ON_BEAM" id_member="81"/>
+            <StbNode id="219" x="0" y="10540" z="7700" kind="ON_BEAM" id_member="73"/>
+            <StbNode id="220" x="0" y="10540" z="11400" kind="ON_BEAM" id_member="81"/>
+            <StbNode id="221" x="0" y="12140" z="7700" kind="ON_BEAM" id_member="74"/>
+            <StbNode id="222" x="0" y="12140" z="11400" kind="ON_BEAM" id_member="82"/>
+            <StbNode id="223" x="0" y="16240" z="7700" kind="ON_BEAM" id_member="74"/>
+            <StbNode id="224" x="0" y="16240" z="11400" kind="ON_BEAM" id_member="82"/>
+            <StbNode id="225" x="6740" y="0" z="0" kind="ON_BEAM" id_member="35"/>
+            <StbNode id="226" x="6740" y="5640" z="0" kind="ON_BEAM" id_member="36"/>
+            <StbNode id="227" x="6740" y="5640" z="0" kind="ON_BEAM" id_member="36"/>
+            <StbNode id="228" x="6740" y="11340" z="0" kind="ON_BEAM" id_member="37"/>
+            <StbNode id="229" x="6740" y="11340" z="0" kind="ON_BEAM" id_member="37"/>
+            <StbNode id="230" x="6740" y="17040" z="0" kind="ON_BEAM" id_member="38"/>
+            <StbNode id="231" x="6740" y="17040" z="0" kind="ON_BEAM" id_member="38"/>
+            <StbNode id="232" x="6740" y="22680" z="0" kind="ON_BEAM" id_member="39"/>
+            <StbNode id="233" x="11817" y="5640" z="1500" kind="ON_COLUMN" id_member="111"/>
+            <StbNode id="234" x="13480" y="5640" z="1500" kind="ON_COLUMN" id_member="4"/>
+            <StbNode id="235" x="10417" y="5640" z="2000" kind="ON_COLUMN" id_member="110"/>
+            <StbNode id="236" x="13480" y="5640" z="2000" kind="ON_COLUMN" id_member="4"/>
+            <StbNode id="237" x="0" y="6440" z="1200" kind="ON_COLUMN" id_member="112"/>
+            <StbNode id="238" x="0" y="10540" z="1200" kind="ON_COLUMN" id_member="113"/>
+            <StbNode id="239" x="0" y="6440" z="2000" kind="ON_COLUMN" id_member="112"/>
+            <StbNode id="240" x="0" y="10540" z="2000" kind="ON_COLUMN" id_member="113"/>
+            <StbNode id="241" x="0" y="12140" z="1200" kind="ON_COLUMN" id_member="114"/>
+            <StbNode id="242" x="0" y="16240" z="1200" kind="ON_COLUMN" id_member="115"/>
+            <StbNode id="243" x="0" y="12140" z="2000" kind="ON_COLUMN" id_member="114"/>
+            <StbNode id="244" x="0" y="16240" z="2000" kind="ON_COLUMN" id_member="115"/>
+            <StbNode id="245" x="10417" y="5640" z="5350" kind="ON_COLUMN" id_member="116"/>
+            <StbNode id="246" x="13480" y="5640" z="5350" kind="ON_COLUMN" id_member="14"/>
+            <StbNode id="247" x="10417" y="5640" z="5850" kind="ON_COLUMN" id_member="116"/>
+            <StbNode id="248" x="13480" y="5640" z="5850" kind="ON_COLUMN" id_member="14"/>
+            <StbNode id="249" x="0" y="6440" z="5050" kind="ON_COLUMN" id_member="117"/>
+            <StbNode id="250" x="0" y="10540" z="5050" kind="ON_COLUMN" id_member="118"/>
+            <StbNode id="251" x="0" y="6440" z="6850" kind="ON_COLUMN" id_member="117"/>
+            <StbNode id="252" x="0" y="10540" z="6850" kind="ON_COLUMN" id_member="118"/>
+            <StbNode id="253" x="0" y="12140" z="5050" kind="ON_COLUMN" id_member="119"/>
+            <StbNode id="254" x="0" y="16240" z="5050" kind="ON_COLUMN" id_member="120"/>
+            <StbNode id="255" x="0" y="12140" z="6850" kind="ON_COLUMN" id_member="119"/>
+            <StbNode id="256" x="0" y="16240" z="6850" kind="ON_COLUMN" id_member="120"/>
+            <StbNode id="257" x="10417" y="5640" z="8550" kind="ON_COLUMN" id_member="121"/>
+            <StbNode id="258" x="13480" y="5640" z="8550" kind="ON_COLUMN" id_member="24"/>
+            <StbNode id="259" x="0" y="6440" z="8750" kind="ON_COLUMN" id_member="122"/>
+            <StbNode id="260" x="0" y="10540" z="8750" kind="ON_COLUMN" id_member="123"/>
+            <StbNode id="261" x="0" y="6440" z="10550" kind="ON_COLUMN" id_member="122"/>
+            <StbNode id="262" x="0" y="10540" z="10550" kind="ON_COLUMN" id_member="123"/>
+            <StbNode id="263" x="0" y="12140" z="8750" kind="ON_COLUMN" id_member="124"/>
+            <StbNode id="264" x="0" y="16240" z="8750" kind="ON_COLUMN" id_member="125"/>
+            <StbNode id="265" x="0" y="12140" z="10550" kind="ON_COLUMN" id_member="124"/>
+            <StbNode id="266" x="0" y="16240" z="10550" kind="ON_COLUMN" id_member="125"/>
+            <StbNode id="267" x="-1200" y="0" z="4000" kind="ON_BEAM" id_member="94"/>
+            <StbNode id="268" x="-1200" y="5640" z="4000" kind="ON_BEAM" id_member="95"/>
+            <StbNode id="269" x="0" y="1000" z="4000" kind="ON_BEAM" id_member="64"/>
+            <StbNode id="270" x="10280" y="1000" z="4000" kind="ON_BEAM" id_member="149"/>
+            <StbNode id="271" x="10280" y="0" z="4000" kind="ON_BEAM" id_member="40"/>
+            <StbNode id="272" x="10280" y="5640" z="4000" kind="ON_BEAM" id_member="41"/>
+            <StbNode id="273" x="2600" y="0" z="4000" kind="ON_BEAM" id_member="40"/>
+            <StbNode id="274" x="2600" y="1000" z="4000" kind="ON_BEAM" id_member="148"/>
+            <StbNode id="275" x="5300" y="0" z="4000" kind="ON_BEAM" id_member="40"/>
+            <StbNode id="276" x="5300" y="1000" z="4000" kind="ON_BEAM" id_member="148"/>
+            <StbNode id="277" x="8000" y="0" z="4000" kind="ON_BEAM" id_member="40"/>
+            <StbNode id="278" x="8000" y="1000" z="4000" kind="ON_BEAM" id_member="148"/>
+            <StbNode id="279" x="2600" y="1000" z="4000" kind="ON_BEAM" id_member="148"/>
+            <StbNode id="280" x="2600" y="5640" z="4000" kind="ON_BEAM" id_member="41"/>
+            <StbNode id="281" x="5300" y="1000" z="4000" kind="ON_BEAM" id_member="148"/>
+            <StbNode id="282" x="5300" y="5640" z="4000" kind="ON_BEAM" id_member="41"/>
+            <StbNode id="283" x="8000" y="1000" z="4000" kind="ON_BEAM" id_member="148"/>
+            <StbNode id="284" x="8000" y="5640" z="4000" kind="ON_BEAM" id_member="41"/>
+            <StbNode id="285" x="-1200" y="5640" z="4000" kind="ON_BEAM" id_member="95"/>
+            <StbNode id="286" x="-1200" y="11340" z="4000" kind="ON_BEAM" id_member="96"/>
+            <StbNode id="287" x="2600" y="5640" z="4000" kind="ON_BEAM" id_member="41"/>
+            <StbNode id="288" x="2600" y="11340" z="4000" kind="ON_BEAM" id_member="42"/>
+            <StbNode id="289" x="5300" y="5640" z="4000" kind="ON_BEAM" id_member="41"/>
+            <StbNode id="290" x="5300" y="11340" z="4000" kind="ON_BEAM" id_member="42"/>
+            <StbNode id="291" x="8000" y="5640" z="4000" kind="ON_BEAM" id_member="41"/>
+            <StbNode id="292" x="8000" y="11340" z="4000" kind="ON_BEAM" id_member="42"/>
+            <StbNode id="293" x="10342.5" y="5640" z="4000" kind="ON_BEAM" id_member="41"/>
+            <StbNode id="294" x="10342.5" y="11340" z="4000" kind="ON_BEAM" id_member="42"/>
+            <StbNode id="295" x="-1200" y="11340" z="4000" kind="ON_BEAM" id_member="96"/>
+            <StbNode id="296" x="-1200" y="17040" z="4000" kind="ON_BEAM" id_member="97"/>
+            <StbNode id="297" x="2600" y="11340" z="4000" kind="ON_BEAM" id_member="42"/>
+            <StbNode id="298" x="2600" y="17040" z="4000" kind="ON_BEAM" id_member="43"/>
+            <StbNode id="299" x="5300" y="11340" z="4000" kind="ON_BEAM" id_member="42"/>
+            <StbNode id="300" x="5300" y="17040" z="4000" kind="ON_BEAM" id_member="43"/>
+            <StbNode id="301" x="7500" y="11340" z="4000" kind="ON_BEAM" id_member="42"/>
+            <StbNode id="302" x="7500" y="17040" z="4000" kind="ON_BEAM" id_member="43"/>
+            <StbNode id="303" x="9500" y="11340" z="4000" kind="ON_BEAM" id_member="42"/>
+            <StbNode id="304" x="9500" y="17040" z="4000" kind="ON_BEAM" id_member="43"/>
+            <StbNode id="305" x="11500" y="11340" z="4000" kind="ON_BEAM" id_member="42"/>
+            <StbNode id="306" x="11500" y="17040" z="4000" kind="ON_BEAM" id_member="43"/>
+            <StbNode id="307" x="-1200" y="17040" z="4000" kind="ON_BEAM" id_member="97"/>
+            <StbNode id="308" x="-1200" y="22680" z="4000" kind="ON_BEAM" id_member="98"/>
+            <StbNode id="309" x="2600" y="17040" z="4000" kind="ON_BEAM" id_member="43"/>
+            <StbNode id="310" x="2600" y="21680" z="4000" kind="ON_BEAM" id_member="173"/>
+            <StbNode id="311" x="5300" y="17040" z="4000" kind="ON_BEAM" id_member="43"/>
+            <StbNode id="312" x="5300" y="21680" z="4000" kind="ON_BEAM" id_member="173"/>
+            <StbNode id="313" x="7500" y="17040" z="4000" kind="ON_BEAM" id_member="43"/>
+            <StbNode id="314" x="7500" y="21680" z="4000" kind="ON_BEAM" id_member="173"/>
+            <StbNode id="315" x="9500" y="17040" z="4000" kind="ON_BEAM" id_member="43"/>
+            <StbNode id="316" x="9500" y="22680" z="4000" kind="ON_BEAM" id_member="44"/>
+            <StbNode id="317" x="11500" y="17040" z="4000" kind="ON_BEAM" id_member="43"/>
+            <StbNode id="318" x="11500" y="22680" z="4000" kind="ON_BEAM" id_member="44"/>
+            <StbNode id="319" x="0" y="21680" z="4000" kind="ON_BEAM" id_member="67"/>
+            <StbNode id="320" x="9500" y="21680" z="4000" kind="ON_BEAM" id_member="171"/>
+            <StbNode id="321" x="2600" y="21680" z="4000" kind="ON_BEAM" id_member="173"/>
+            <StbNode id="322" x="2600" y="22680" z="4000" kind="ON_BEAM" id_member="44"/>
+            <StbNode id="323" x="5300" y="21680" z="4000" kind="ON_BEAM" id_member="173"/>
+            <StbNode id="324" x="5300" y="22680" z="4000" kind="ON_BEAM" id_member="44"/>
+            <StbNode id="325" x="7500" y="21680" z="4000" kind="ON_BEAM" id_member="173"/>
+            <StbNode id="326" x="7500" y="22680" z="4000" kind="ON_BEAM" id_member="44"/>
+            <StbNode id="327" x="-1200" y="0" z="7700" kind="ON_BEAM" id_member="99"/>
+            <StbNode id="328" x="-1200" y="5640" z="7700" kind="ON_BEAM" id_member="100"/>
+            <StbNode id="329" x="2600" y="0" z="7700" kind="ON_BEAM" id_member="45"/>
+            <StbNode id="330" x="2600" y="5640" z="7700" kind="ON_BEAM" id_member="46"/>
+            <StbNode id="331" x="5300" y="0" z="7700" kind="ON_BEAM" id_member="45"/>
+            <StbNode id="332" x="5300" y="5640" z="7700" kind="ON_BEAM" id_member="46"/>
+            <StbNode id="333" x="8000" y="0" z="7700" kind="ON_BEAM" id_member="45"/>
+            <StbNode id="334" x="8000" y="5640" z="7700" kind="ON_BEAM" id_member="46"/>
+            <StbNode id="335" x="10342.5" y="0" z="7700" kind="ON_BEAM" id_member="45"/>
+            <StbNode id="336" x="10342.5" y="5640" z="7700" kind="ON_BEAM" id_member="46"/>
+            <StbNode id="337" x="0" y="1000" z="7700" kind="ON_BEAM" id_member="72"/>
+            <StbNode id="338" x="2600" y="1000" z="7700" kind="ON_BEAM" id_member="178"/>
+            <StbNode id="339" x="8000" y="2200" z="7700" kind="ON_BEAM" id_member="180"/>
+            <StbNode id="340" x="10342.5" y="2200" z="7700" kind="ON_BEAM" id_member="181"/>
+            <StbNode id="341" x="-1200" y="5640" z="7700" kind="ON_BEAM" id_member="100"/>
+            <StbNode id="342" x="-1200" y="11340" z="7700" kind="ON_BEAM" id_member="101"/>
+            <StbNode id="343" x="2600" y="5640" z="7700" kind="ON_BEAM" id_member="46"/>
+            <StbNode id="344" x="2600" y="11340" z="7700" kind="ON_BEAM" id_member="47"/>
+            <StbNode id="345" x="5300" y="5640" z="7700" kind="ON_BEAM" id_member="46"/>
+            <StbNode id="346" x="5300" y="11340" z="7700" kind="ON_BEAM" id_member="47"/>
+            <StbNode id="347" x="8000" y="5640" z="7700" kind="ON_BEAM" id_member="46"/>
+            <StbNode id="348" x="8000" y="11340" z="7700" kind="ON_BEAM" id_member="47"/>
+            <StbNode id="349" x="10342.5" y="5640" z="7700" kind="ON_BEAM" id_member="46"/>
+            <StbNode id="350" x="10342.5" y="11340" z="7700" kind="ON_BEAM" id_member="47"/>
+            <StbNode id="351" x="-1200" y="11340" z="7700" kind="ON_BEAM" id_member="101"/>
+            <StbNode id="352" x="-1200" y="17040" z="7700" kind="ON_BEAM" id_member="102"/>
+            <StbNode id="353" x="2600" y="11340" z="7700" kind="ON_BEAM" id_member="47"/>
+            <StbNode id="354" x="2600" y="17040" z="7700" kind="ON_BEAM" id_member="48"/>
+            <StbNode id="355" x="5300" y="11340" z="7700" kind="ON_BEAM" id_member="47"/>
+            <StbNode id="356" x="5300" y="17040" z="7700" kind="ON_BEAM" id_member="48"/>
+            <StbNode id="357" x="7500" y="11340" z="7700" kind="ON_BEAM" id_member="47"/>
+            <StbNode id="358" x="7500" y="17040" z="7700" kind="ON_BEAM" id_member="48"/>
+            <StbNode id="359" x="9500" y="11340" z="7700" kind="ON_BEAM" id_member="47"/>
+            <StbNode id="360" x="9500" y="17040" z="7700" kind="ON_BEAM" id_member="48"/>
+            <StbNode id="361" x="11500" y="11340" z="7700" kind="ON_BEAM" id_member="47"/>
+            <StbNode id="362" x="11500" y="17040" z="7700" kind="ON_BEAM" id_member="48"/>
+            <StbNode id="363" x="-1200" y="17040" z="7700" kind="ON_BEAM" id_member="102"/>
+            <StbNode id="364" x="-1200" y="22680" z="7700" kind="ON_BEAM" id_member="103"/>
+            <StbNode id="365" x="2600" y="17040" z="7700" kind="ON_BEAM" id_member="48"/>
+            <StbNode id="366" x="2600" y="22680" z="7700" kind="ON_BEAM" id_member="49"/>
+            <StbNode id="367" x="5300" y="17040" z="7700" kind="ON_BEAM" id_member="48"/>
+            <StbNode id="368" x="5300" y="22680" z="7700" kind="ON_BEAM" id_member="49"/>
+            <StbNode id="369" x="7500" y="17040" z="7700" kind="ON_BEAM" id_member="48"/>
+            <StbNode id="370" x="7500" y="22680" z="7700" kind="ON_BEAM" id_member="49"/>
+            <StbNode id="371" x="9500" y="17040" z="7700" kind="ON_BEAM" id_member="48"/>
+            <StbNode id="372" x="9500" y="22680" z="7700" kind="ON_BEAM" id_member="49"/>
+            <StbNode id="373" x="11500" y="17040" z="7700" kind="ON_BEAM" id_member="48"/>
+            <StbNode id="374" x="11500" y="22680" z="7700" kind="ON_BEAM" id_member="49"/>
+            <StbNode id="375" x="-1200" y="0" z="11400" kind="ON_BEAM" id_member="104"/>
+            <StbNode id="376" x="-1200" y="5640" z="11400" kind="ON_BEAM" id_member="105"/>
+            <StbNode id="377" x="2654.25" y="0" z="11528.635" kind="ON_BEAM" id_member="50"/>
+            <StbNode id="378" x="2654.25" y="5640" z="11528.635" kind="ON_BEAM" id_member="52"/>
+            <StbNode id="379" x="5208.5" y="0" z="11652.423" kind="ON_BEAM" id_member="50"/>
+            <StbNode id="380" x="5208.5" y="5640" z="11652.423" kind="ON_BEAM" id_member="52"/>
+            <StbNode id="381" x="7762.75" y="0" z="11776.212" kind="ON_BEAM" id_member="50"/>
+            <StbNode id="382" x="7762.75" y="5640" z="11776.212" kind="ON_BEAM" id_member="52"/>
+            <StbNode id="383" x="-1200" y="5640" z="11400" kind="ON_BEAM" id_member="105"/>
+            <StbNode id="384" x="-1200" y="11340" z="11400" kind="ON_BEAM" id_member="106"/>
+            <StbNode id="385" x="2654.25" y="5640" z="11528.635" kind="ON_BEAM" id_member="52"/>
+            <StbNode id="386" x="2654.25" y="11340" z="11528.635" kind="ON_BEAM" id_member="54"/>
+            <StbNode id="387" x="5208.5" y="5640" z="11652.423" kind="ON_BEAM" id_member="52"/>
+            <StbNode id="388" x="5208.5" y="11340" z="11652.423" kind="ON_BEAM" id_member="54"/>
+            <StbNode id="389" x="7762.75" y="5640" z="11776.212" kind="ON_BEAM" id_member="52"/>
+            <StbNode id="390" x="7762.75" y="11340" z="11776.212" kind="ON_BEAM" id_member="54"/>
+            <StbNode id="391" x="-1200" y="11340" z="11400" kind="ON_BEAM" id_member="106"/>
+            <StbNode id="392" x="-1200" y="17040" z="11400" kind="ON_BEAM" id_member="107"/>
+            <StbNode id="393" x="2654.25" y="11340" z="11528.635" kind="ON_BEAM" id_member="54"/>
+            <StbNode id="394" x="2654.25" y="17040" z="11528.635" kind="ON_BEAM" id_member="56"/>
+            <StbNode id="395" x="5208.5" y="11340" z="11652.423" kind="ON_BEAM" id_member="54"/>
+            <StbNode id="396" x="5208.5" y="17040" z="11652.423" kind="ON_BEAM" id_member="56"/>
+            <StbNode id="397" x="7762.75" y="11340" z="11776.212" kind="ON_BEAM" id_member="54"/>
+            <StbNode id="398" x="7762.75" y="17040" z="11776.212" kind="ON_BEAM" id_member="56"/>
+            <StbNode id="399" x="-1200" y="17040" z="11400" kind="ON_BEAM" id_member="107"/>
+            <StbNode id="400" x="-1200" y="22680" z="11400" kind="ON_BEAM" id_member="108"/>
+            <StbNode id="401" x="2654.25" y="17040" z="11528.635" kind="ON_BEAM" id_member="56"/>
+            <StbNode id="402" x="2654.25" y="22680" z="11528.635" kind="ON_BEAM" id_member="58"/>
+            <StbNode id="403" x="5208.5" y="17040" z="11652.423" kind="ON_BEAM" id_member="56"/>
+            <StbNode id="404" x="5208.5" y="22680" z="11652.423" kind="ON_BEAM" id_member="58"/>
+            <StbNode id="405" x="7762.75" y="17040" z="11776.212" kind="ON_BEAM" id_member="56"/>
+            <StbNode id="406" x="7762.75" y="22680" z="11776.212" kind="ON_BEAM" id_member="58"/>
+        </StbNodes>
+        <StbAxes>
+            <StbX_Axis id="1" name="1" distance="0">
+                <StbNodeid_List>
+                    <StbNodeid id="9"/>
+                    <StbNodeid id="10"/>
+                    <StbNodeid id="11"/>
+                    <StbNodeid id="12"/>
+                    <StbNodeid id="13"/>
+                    <StbNodeid id="44"/>
+                    <StbNodeid id="45"/>
+                    <StbNodeid id="46"/>
+                    <StbNodeid id="47"/>
+                    <StbNodeid id="48"/>
+                    <StbNodeid id="79"/>
+                    <StbNodeid id="80"/>
+                    <StbNodeid id="81"/>
+                    <StbNodeid id="82"/>
+                    <StbNodeid id="83"/>
+                    <StbNodeid id="114"/>
+                    <StbNodeid id="115"/>
+                    <StbNodeid id="116"/>
+                    <StbNodeid id="117"/>
+                    <StbNodeid id="118"/>
+                    <StbNodeid id="149"/>
+                    <StbNodeid id="150"/>
+                    <StbNodeid id="151"/>
+                    <StbNodeid id="152"/>
+                    <StbNodeid id="153"/>
+                </StbNodeid_List>
+            </StbX_Axis>
+            <StbX_Axis id="2" name="1'" distance="10317">
+                <StbNodeid_List>
+                    <StbNodeid id="16"/>
+                    <StbNodeid id="17"/>
+                    <StbNodeid id="18"/>
+                    <StbNodeid id="19"/>
+                    <StbNodeid id="20"/>
+                    <StbNodeid id="51"/>
+                    <StbNodeid id="52"/>
+                    <StbNodeid id="53"/>
+                    <StbNodeid id="54"/>
+                    <StbNodeid id="55"/>
+                    <StbNodeid id="86"/>
+                    <StbNodeid id="87"/>
+                    <StbNodeid id="88"/>
+                    <StbNodeid id="89"/>
+                    <StbNodeid id="90"/>
+                    <StbNodeid id="121"/>
+                    <StbNodeid id="122"/>
+                    <StbNodeid id="123"/>
+                    <StbNodeid id="124"/>
+                    <StbNodeid id="125"/>
+                    <StbNodeid id="156"/>
+                    <StbNodeid id="157"/>
+                    <StbNodeid id="158"/>
+                    <StbNodeid id="159"/>
+                    <StbNodeid id="160"/>
+                </StbNodeid_List>
+            </StbX_Axis>
+            <StbX_Axis id="3" name="2" distance="13480">
+                <StbNodeid_List>
+                    <StbNodeid id="23"/>
+                    <StbNodeid id="24"/>
+                    <StbNodeid id="25"/>
+                    <StbNodeid id="26"/>
+                    <StbNodeid id="27"/>
+                    <StbNodeid id="58"/>
+                    <StbNodeid id="59"/>
+                    <StbNodeid id="60"/>
+                    <StbNodeid id="61"/>
+                    <StbNodeid id="62"/>
+                    <StbNodeid id="93"/>
+                    <StbNodeid id="94"/>
+                    <StbNodeid id="95"/>
+                    <StbNodeid id="96"/>
+                    <StbNodeid id="97"/>
+                    <StbNodeid id="128"/>
+                    <StbNodeid id="129"/>
+                    <StbNodeid id="130"/>
+                    <StbNodeid id="131"/>
+                    <StbNodeid id="132"/>
+                    <StbNodeid id="163"/>
+                    <StbNodeid id="164"/>
+                    <StbNodeid id="165"/>
+                    <StbNodeid id="166"/>
+                    <StbNodeid id="167"/>
+                </StbNodeid_List>
+            </StbX_Axis>
+            <StbY_Axis id="4" name="A" distance="0">
+                <StbNodeid_List>
+                    <StbNodeid id="9"/>
+                    <StbNodeid id="16"/>
+                    <StbNodeid id="23"/>
+                    <StbNodeid id="37"/>
+                    <StbNodeid id="44"/>
+                    <StbNodeid id="51"/>
+                    <StbNodeid id="58"/>
+                    <StbNodeid id="72"/>
+                    <StbNodeid id="79"/>
+                    <StbNodeid id="86"/>
+                    <StbNodeid id="93"/>
+                    <StbNodeid id="107"/>
+                    <StbNodeid id="114"/>
+                    <StbNodeid id="121"/>
+                    <StbNodeid id="128"/>
+                    <StbNodeid id="149"/>
+                    <StbNodeid id="156"/>
+                    <StbNodeid id="163"/>
+                </StbNodeid_List>
+            </StbY_Axis>
+            <StbY_Axis id="5" name="B" distance="5640">
+                <StbNodeid_List>
+                    <StbNodeid id="10"/>
+                    <StbNodeid id="17"/>
+                    <StbNodeid id="24"/>
+                    <StbNodeid id="38"/>
+                    <StbNodeid id="45"/>
+                    <StbNodeid id="52"/>
+                    <StbNodeid id="59"/>
+                    <StbNodeid id="73"/>
+                    <StbNodeid id="80"/>
+                    <StbNodeid id="87"/>
+                    <StbNodeid id="94"/>
+                    <StbNodeid id="108"/>
+                    <StbNodeid id="115"/>
+                    <StbNodeid id="122"/>
+                    <StbNodeid id="129"/>
+                    <StbNodeid id="150"/>
+                    <StbNodeid id="157"/>
+                    <StbNodeid id="164"/>
+                </StbNodeid_List>
+            </StbY_Axis>
+            <StbY_Axis id="6" name="C" distance="11340">
+                <StbNodeid_List>
+                    <StbNodeid id="11"/>
+                    <StbNodeid id="18"/>
+                    <StbNodeid id="25"/>
+                    <StbNodeid id="39"/>
+                    <StbNodeid id="46"/>
+                    <StbNodeid id="53"/>
+                    <StbNodeid id="60"/>
+                    <StbNodeid id="74"/>
+                    <StbNodeid id="81"/>
+                    <StbNodeid id="88"/>
+                    <StbNodeid id="95"/>
+                    <StbNodeid id="109"/>
+                    <StbNodeid id="116"/>
+                    <StbNodeid id="123"/>
+                    <StbNodeid id="130"/>
+                    <StbNodeid id="151"/>
+                    <StbNodeid id="158"/>
+                    <StbNodeid id="165"/>
+                </StbNodeid_List>
+            </StbY_Axis>
+            <StbY_Axis id="7" name="D" distance="17040">
+                <StbNodeid_List>
+                    <StbNodeid id="12"/>
+                    <StbNodeid id="19"/>
+                    <StbNodeid id="26"/>
+                    <StbNodeid id="40"/>
+                    <StbNodeid id="47"/>
+                    <StbNodeid id="54"/>
+                    <StbNodeid id="61"/>
+                    <StbNodeid id="75"/>
+                    <StbNodeid id="82"/>
+                    <StbNodeid id="89"/>
+                    <StbNodeid id="96"/>
+                    <StbNodeid id="110"/>
+                    <StbNodeid id="117"/>
+                    <StbNodeid id="124"/>
+                    <StbNodeid id="131"/>
+                    <StbNodeid id="152"/>
+                    <StbNodeid id="159"/>
+                    <StbNodeid id="166"/>
+                </StbNodeid_List>
+            </StbY_Axis>
+            <StbY_Axis id="8" name="E" distance="22680">
+                <StbNodeid_List>
+                    <StbNodeid id="13"/>
+                    <StbNodeid id="20"/>
+                    <StbNodeid id="27"/>
+                    <StbNodeid id="41"/>
+                    <StbNodeid id="48"/>
+                    <StbNodeid id="55"/>
+                    <StbNodeid id="62"/>
+                    <StbNodeid id="76"/>
+                    <StbNodeid id="83"/>
+                    <StbNodeid id="90"/>
+                    <StbNodeid id="97"/>
+                    <StbNodeid id="111"/>
+                    <StbNodeid id="118"/>
+                    <StbNodeid id="125"/>
+                    <StbNodeid id="132"/>
+                    <StbNodeid id="153"/>
+                    <StbNodeid id="160"/>
+                    <StbNodeid id="167"/>
+                </StbNodeid_List>
+            </StbY_Axis>
+        </StbAxes>
+        <StbStories>
+            <StbStory id="9" name="1" height="0" kind="GENERAL" concrete_strength="FC24">
+                <StbNodeid_List>
+                    <StbNodeid id="9"/>
+                    <StbNodeid id="10"/>
+                    <StbNodeid id="11"/>
+                    <StbNodeid id="12"/>
+                    <StbNodeid id="13"/>
+                    <StbNodeid id="16"/>
+                    <StbNodeid id="17"/>
+                    <StbNodeid id="18"/>
+                    <StbNodeid id="19"/>
+                    <StbNodeid id="20"/>
+                    <StbNodeid id="23"/>
+                    <StbNodeid id="24"/>
+                    <StbNodeid id="25"/>
+                    <StbNodeid id="26"/>
+                    <StbNodeid id="27"/>
+                    <StbNodeid id="191"/>
+                    <StbNodeid id="193"/>
+                    <StbNodeid id="195"/>
+                    <StbNodeid id="197"/>
+                    <StbNodeid id="199"/>
+                    <StbNodeid id="201"/>
+                    <StbNodeid id="203"/>
+                    <StbNodeid id="225"/>
+                    <StbNodeid id="226"/>
+                    <StbNodeid id="227"/>
+                    <StbNodeid id="228"/>
+                    <StbNodeid id="229"/>
+                    <StbNodeid id="230"/>
+                    <StbNodeid id="231"/>
+                    <StbNodeid id="232"/>
+                </StbNodeid_List>
+            </StbStory>
+            <StbStory id="10" name="2" height="4000" kind="GENERAL" concrete_strength="FC24">
+                <StbNodeid_List>
+                    <StbNodeid id="37"/>
+                    <StbNodeid id="38"/>
+                    <StbNodeid id="39"/>
+                    <StbNodeid id="40"/>
+                    <StbNodeid id="41"/>
+                    <StbNodeid id="44"/>
+                    <StbNodeid id="45"/>
+                    <StbNodeid id="46"/>
+                    <StbNodeid id="47"/>
+                    <StbNodeid id="48"/>
+                    <StbNodeid id="51"/>
+                    <StbNodeid id="52"/>
+                    <StbNodeid id="53"/>
+                    <StbNodeid id="54"/>
+                    <StbNodeid id="55"/>
+                    <StbNodeid id="58"/>
+                    <StbNodeid id="59"/>
+                    <StbNodeid id="60"/>
+                    <StbNodeid id="61"/>
+                    <StbNodeid id="62"/>
+                    <StbNodeid id="176"/>
+                    <StbNodeid id="177"/>
+                    <StbNodeid id="178"/>
+                    <StbNodeid id="179"/>
+                    <StbNodeid id="180"/>
+                    <StbNodeid id="192"/>
+                    <StbNodeid id="194"/>
+                    <StbNodeid id="196"/>
+                    <StbNodeid id="198"/>
+                    <StbNodeid id="200"/>
+                    <StbNodeid id="202"/>
+                    <StbNodeid id="204"/>
+                    <StbNodeid id="205"/>
+                    <StbNodeid id="207"/>
+                    <StbNodeid id="209"/>
+                    <StbNodeid id="211"/>
+                    <StbNodeid id="213"/>
+                    <StbNodeid id="267"/>
+                    <StbNodeid id="268"/>
+                    <StbNodeid id="269"/>
+                    <StbNodeid id="270"/>
+                    <StbNodeid id="271"/>
+                    <StbNodeid id="272"/>
+                    <StbNodeid id="273"/>
+                    <StbNodeid id="274"/>
+                    <StbNodeid id="275"/>
+                    <StbNodeid id="276"/>
+                    <StbNodeid id="277"/>
+                    <StbNodeid id="278"/>
+                    <StbNodeid id="279"/>
+                    <StbNodeid id="280"/>
+                    <StbNodeid id="281"/>
+                    <StbNodeid id="282"/>
+                    <StbNodeid id="283"/>
+                    <StbNodeid id="284"/>
+                    <StbNodeid id="285"/>
+                    <StbNodeid id="286"/>
+                    <StbNodeid id="287"/>
+                    <StbNodeid id="288"/>
+                    <StbNodeid id="289"/>
+                    <StbNodeid id="290"/>
+                    <StbNodeid id="291"/>
+                    <StbNodeid id="292"/>
+                    <StbNodeid id="293"/>
+                    <StbNodeid id="294"/>
+                    <StbNodeid id="295"/>
+                    <StbNodeid id="296"/>
+                    <StbNodeid id="297"/>
+                    <StbNodeid id="298"/>
+                    <StbNodeid id="299"/>
+                    <StbNodeid id="300"/>
+                    <StbNodeid id="301"/>
+                    <StbNodeid id="302"/>
+                    <StbNodeid id="303"/>
+                    <StbNodeid id="304"/>
+                    <StbNodeid id="305"/>
+                    <StbNodeid id="306"/>
+                    <StbNodeid id="307"/>
+                    <StbNodeid id="308"/>
+                    <StbNodeid id="309"/>
+                    <StbNodeid id="310"/>
+                    <StbNodeid id="311"/>
+                    <StbNodeid id="312"/>
+                    <StbNodeid id="313"/>
+                    <StbNodeid id="314"/>
+                    <StbNodeid id="315"/>
+                    <StbNodeid id="316"/>
+                    <StbNodeid id="317"/>
+                    <StbNodeid id="318"/>
+                    <StbNodeid id="319"/>
+                    <StbNodeid id="320"/>
+                    <StbNodeid id="321"/>
+                    <StbNodeid id="322"/>
+                    <StbNodeid id="323"/>
+                    <StbNodeid id="324"/>
+                    <StbNodeid id="325"/>
+                    <StbNodeid id="326"/>
+                </StbNodeid_List>
+            </StbStory>
+            <StbStory id="11" name="3" height="7700" kind="GENERAL" concrete_strength="FC24">
+                <StbNodeid_List>
+                    <StbNodeid id="72"/>
+                    <StbNodeid id="73"/>
+                    <StbNodeid id="74"/>
+                    <StbNodeid id="75"/>
+                    <StbNodeid id="76"/>
+                    <StbNodeid id="79"/>
+                    <StbNodeid id="80"/>
+                    <StbNodeid id="81"/>
+                    <StbNodeid id="82"/>
+                    <StbNodeid id="83"/>
+                    <StbNodeid id="86"/>
+                    <StbNodeid id="87"/>
+                    <StbNodeid id="88"/>
+                    <StbNodeid id="89"/>
+                    <StbNodeid id="90"/>
+                    <StbNodeid id="93"/>
+                    <StbNodeid id="94"/>
+                    <StbNodeid id="95"/>
+                    <StbNodeid id="96"/>
+                    <StbNodeid id="97"/>
+                    <StbNodeid id="181"/>
+                    <StbNodeid id="182"/>
+                    <StbNodeid id="183"/>
+                    <StbNodeid id="184"/>
+                    <StbNodeid id="185"/>
+                    <StbNodeid id="206"/>
+                    <StbNodeid id="208"/>
+                    <StbNodeid id="210"/>
+                    <StbNodeid id="212"/>
+                    <StbNodeid id="214"/>
+                    <StbNodeid id="215"/>
+                    <StbNodeid id="217"/>
+                    <StbNodeid id="219"/>
+                    <StbNodeid id="221"/>
+                    <StbNodeid id="223"/>
+                    <StbNodeid id="327"/>
+                    <StbNodeid id="328"/>
+                    <StbNodeid id="329"/>
+                    <StbNodeid id="330"/>
+                    <StbNodeid id="331"/>
+                    <StbNodeid id="332"/>
+                    <StbNodeid id="333"/>
+                    <StbNodeid id="334"/>
+                    <StbNodeid id="335"/>
+                    <StbNodeid id="336"/>
+                    <StbNodeid id="337"/>
+                    <StbNodeid id="338"/>
+                    <StbNodeid id="339"/>
+                    <StbNodeid id="340"/>
+                    <StbNodeid id="341"/>
+                    <StbNodeid id="342"/>
+                    <StbNodeid id="343"/>
+                    <StbNodeid id="344"/>
+                    <StbNodeid id="345"/>
+                    <StbNodeid id="346"/>
+                    <StbNodeid id="347"/>
+                    <StbNodeid id="348"/>
+                    <StbNodeid id="349"/>
+                    <StbNodeid id="350"/>
+                    <StbNodeid id="351"/>
+                    <StbNodeid id="352"/>
+                    <StbNodeid id="353"/>
+                    <StbNodeid id="354"/>
+                    <StbNodeid id="355"/>
+                    <StbNodeid id="356"/>
+                    <StbNodeid id="357"/>
+                    <StbNodeid id="358"/>
+                    <StbNodeid id="359"/>
+                    <StbNodeid id="360"/>
+                    <StbNodeid id="361"/>
+                    <StbNodeid id="362"/>
+                    <StbNodeid id="363"/>
+                    <StbNodeid id="364"/>
+                    <StbNodeid id="365"/>
+                    <StbNodeid id="366"/>
+                    <StbNodeid id="367"/>
+                    <StbNodeid id="368"/>
+                    <StbNodeid id="369"/>
+                    <StbNodeid id="370"/>
+                    <StbNodeid id="371"/>
+                    <StbNodeid id="372"/>
+                    <StbNodeid id="373"/>
+                    <StbNodeid id="374"/>
+                </StbNodeid_List>
+            </StbStory>
+            <StbStory id="12" name="R" height="11400" kind="GENERAL" concrete_strength="FC24">
+                <StbNodeid_List>
+                    <StbNodeid id="107"/>
+                    <StbNodeid id="108"/>
+                    <StbNodeid id="109"/>
+                    <StbNodeid id="110"/>
+                    <StbNodeid id="111"/>
+                    <StbNodeid id="114"/>
+                    <StbNodeid id="115"/>
+                    <StbNodeid id="116"/>
+                    <StbNodeid id="117"/>
+                    <StbNodeid id="118"/>
+                    <StbNodeid id="121"/>
+                    <StbNodeid id="122"/>
+                    <StbNodeid id="123"/>
+                    <StbNodeid id="124"/>
+                    <StbNodeid id="125"/>
+                    <StbNodeid id="128"/>
+                    <StbNodeid id="129"/>
+                    <StbNodeid id="130"/>
+                    <StbNodeid id="131"/>
+                    <StbNodeid id="132"/>
+                    <StbNodeid id="186"/>
+                    <StbNodeid id="187"/>
+                    <StbNodeid id="188"/>
+                    <StbNodeid id="189"/>
+                    <StbNodeid id="190"/>
+                    <StbNodeid id="216"/>
+                    <StbNodeid id="218"/>
+                    <StbNodeid id="220"/>
+                    <StbNodeid id="222"/>
+                    <StbNodeid id="224"/>
+                    <StbNodeid id="375"/>
+                    <StbNodeid id="376"/>
+                    <StbNodeid id="377"/>
+                    <StbNodeid id="378"/>
+                    <StbNodeid id="379"/>
+                    <StbNodeid id="380"/>
+                    <StbNodeid id="381"/>
+                    <StbNodeid id="382"/>
+                    <StbNodeid id="383"/>
+                    <StbNodeid id="384"/>
+                    <StbNodeid id="385"/>
+                    <StbNodeid id="386"/>
+                    <StbNodeid id="387"/>
+                    <StbNodeid id="388"/>
+                    <StbNodeid id="389"/>
+                    <StbNodeid id="390"/>
+                    <StbNodeid id="391"/>
+                    <StbNodeid id="392"/>
+                    <StbNodeid id="393"/>
+                    <StbNodeid id="394"/>
+                    <StbNodeid id="395"/>
+                    <StbNodeid id="396"/>
+                    <StbNodeid id="397"/>
+                    <StbNodeid id="398"/>
+                    <StbNodeid id="399"/>
+                    <StbNodeid id="400"/>
+                    <StbNodeid id="401"/>
+                    <StbNodeid id="402"/>
+                    <StbNodeid id="403"/>
+                    <StbNodeid id="404"/>
+                    <StbNodeid id="405"/>
+                    <StbNodeid id="406"/>
+                </StbNodeid_List>
+            </StbStory>
+            <StbStory id="13" name="PHR" height="13950" kind="ROOF" concrete_strength="FC24">
+                <StbNodeid_List>
+                    <StbNodeid id="149"/>
+                    <StbNodeid id="150"/>
+                    <StbNodeid id="151"/>
+                    <StbNodeid id="152"/>
+                    <StbNodeid id="153"/>
+                    <StbNodeid id="156"/>
+                    <StbNodeid id="157"/>
+                    <StbNodeid id="158"/>
+                    <StbNodeid id="159"/>
+                    <StbNodeid id="160"/>
+                    <StbNodeid id="163"/>
+                    <StbNodeid id="164"/>
+                    <StbNodeid id="165"/>
+                    <StbNodeid id="166"/>
+                    <StbNodeid id="167"/>
+                </StbNodeid_List>
+            </StbStory>
+        </StbStories>
+        <StbMembers>
+            <StbFootings/>
+            <StbPiles/>
+            <StbColumns>
+                <StbColumn id="1" name="1C1" idNode_bottom="9" idNode_top="44" rotate="0" id_section="1" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="2" name="1C1" idNode_bottom="23" idNode_top="58" rotate="0" id_section="1" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="3" name="1C1" idNode_bottom="10" idNode_top="45" rotate="0" id_section="1" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="4" name="1C1" idNode_bottom="24" idNode_top="59" rotate="0" id_section="1" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="5" name="1C1" idNode_bottom="11" idNode_top="46" rotate="0" id_section="1" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="6" name="1C1" idNode_bottom="25" idNode_top="60" rotate="0" id_section="1" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="7" name="1C1" idNode_bottom="12" idNode_top="47" rotate="0" id_section="1" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="8" name="1C1" idNode_bottom="26" idNode_top="61" rotate="0" id_section="1" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="9" name="1C1" idNode_bottom="13" idNode_top="48" rotate="0" id_section="1" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="10" name="1C1" idNode_bottom="27" idNode_top="62" rotate="0" id_section="1" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="11" name="2C1" idNode_bottom="44" idNode_top="79" rotate="0" id_section="2" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="12" name="2C1" idNode_bottom="58" idNode_top="93" rotate="0" id_section="2" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="13" name="2C1" idNode_bottom="45" idNode_top="80" rotate="0" id_section="2" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="14" name="2C1" idNode_bottom="59" idNode_top="94" rotate="0" id_section="2" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="15" name="2C1" idNode_bottom="46" idNode_top="81" rotate="0" id_section="2" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="16" name="2C1" idNode_bottom="60" idNode_top="95" rotate="0" id_section="2" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="17" name="2C1" idNode_bottom="47" idNode_top="82" rotate="0" id_section="2" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="18" name="2C1" idNode_bottom="61" idNode_top="96" rotate="0" id_section="2" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="19" name="2C1" idNode_bottom="48" idNode_top="83" rotate="0" id_section="2" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="20" name="2C1" idNode_bottom="62" idNode_top="97" rotate="0" id_section="2" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="21" name="3C1" idNode_bottom="79" idNode_top="114" rotate="0" id_section="3" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="22" name="3C1" idNode_bottom="93" idNode_top="128" rotate="0" id_section="3" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="23" name="3C1" idNode_bottom="80" idNode_top="115" rotate="0" id_section="3" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="24" name="3C1" idNode_bottom="94" idNode_top="129" rotate="0" id_section="3" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="25" name="3C1" idNode_bottom="81" idNode_top="116" rotate="0" id_section="3" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="26" name="3C1" idNode_bottom="95" idNode_top="130" rotate="0" id_section="3" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="27" name="3C1" idNode_bottom="82" idNode_top="117" rotate="0" id_section="3" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="28" name="3C1" idNode_bottom="96" idNode_top="131" rotate="0" id_section="3" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="29" name="3C1" idNode_bottom="83" idNode_top="118" rotate="0" id_section="3" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="30" name="3C1" idNode_bottom="97" idNode_top="132" rotate="0" id_section="3" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="31" name="RC10" idNode_bottom="122" idNode_top="157" rotate="0" id_section="4" kind_structure="S" offset_X="125" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="32" name="RC10" idNode_bottom="129" idNode_top="164" rotate="0" id_section="4" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="33" name="RC10" idNode_bottom="123" idNode_top="158" rotate="0" id_section="4" kind_structure="S" offset_X="125" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbColumn id="34" name="RC10" idNode_bottom="130" idNode_top="165" rotate="0" id_section="4" kind_structure="S" offset_X="0" offset_Y="0" condition_bottom="FIX" condition_top="FIX"/>
+            </StbColumns>
+            <StbGirders>
+                <StbGirder id="35" name="1FG1" idNode_start="9" idNode_end="23" rotate="0" id_section="17" kind_structure="RC" isFoundation="TRUE" offset="0" level="0" type_haunch_H="BOTH"/>
+                <StbGirder id="36" name="1FG1" idNode_start="10" idNode_end="24" rotate="0" id_section="17" kind_structure="RC" isFoundation="TRUE" offset="0" level="0" type_haunch_H="BOTH"/>
+                <StbGirder id="37" name="1FG1" idNode_start="11" idNode_end="25" rotate="0" id_section="17" kind_structure="RC" isFoundation="TRUE" offset="0" level="0" type_haunch_H="BOTH"/>
+                <StbGirder id="38" name="1FG1" idNode_start="12" idNode_end="26" rotate="0" id_section="17" kind_structure="RC" isFoundation="TRUE" offset="0" level="0" type_haunch_H="BOTH"/>
+                <StbGirder id="39" name="1FG1" idNode_start="13" idNode_end="27" rotate="0" id_section="17" kind_structure="RC" isFoundation="TRUE" offset="0" level="0" type_haunch_H="BOTH"/>
+                <StbGirder id="40" name="2G1" idNode_start="44" idNode_end="58" rotate="0" id_section="5" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="41" name="2G1" idNode_start="45" idNode_end="59" rotate="0" id_section="5" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="42" name="2G1" idNode_start="46" idNode_end="60" rotate="0" id_section="5" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="43" name="2G1" idNode_start="47" idNode_end="61" rotate="0" id_section="5" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="44" name="2G1" idNode_start="48" idNode_end="62" rotate="0" id_section="5" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="45" name="3G1" idNode_start="79" idNode_end="93" rotate="0" id_section="7" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="46" name="3G1" idNode_start="80" idNode_end="94" rotate="0" id_section="7" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="47" name="3G1" idNode_start="81" idNode_end="95" rotate="0" id_section="7" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="48" name="3G1" idNode_start="82" idNode_end="96" rotate="0" id_section="7" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="49" name="3G1" idNode_start="83" idNode_end="97" rotate="0" id_section="7" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="50" name="RG1" idNode_start="114" idNode_end="121" rotate="0" id_section="9" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000"/>
+                <StbGirder id="51" name="RG1" idNode_start="121" idNode_end="128" rotate="0" id_section="9" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1500"/>
+                <StbGirder id="52" name="RG1" idNode_start="115" idNode_end="122" rotate="0" id_section="9" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000"/>
+                <StbGirder id="53" name="RG1" idNode_start="122" idNode_end="129" rotate="0" id_section="9" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1500"/>
+                <StbGirder id="54" name="RG1" idNode_start="116" idNode_end="123" rotate="0" id_section="9" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000"/>
+                <StbGirder id="55" name="RG1" idNode_start="123" idNode_end="130" rotate="0" id_section="9" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1500"/>
+                <StbGirder id="56" name="RG1" idNode_start="117" idNode_end="124" rotate="0" id_section="9" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000"/>
+                <StbGirder id="57" name="RG1" idNode_start="124" idNode_end="131" rotate="0" id_section="9" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1500"/>
+                <StbGirder id="58" name="RG1" idNode_start="118" idNode_end="125" rotate="0" id_section="9" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000"/>
+                <StbGirder id="59" name="RG1" idNode_start="125" idNode_end="132" rotate="0" id_section="9" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1500"/>
+                <StbGirder id="60" name="PHRG1" idNode_start="157" idNode_end="164" rotate="0" id_section="12" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="61" name="PHRG1" idNode_start="158" idNode_end="165" rotate="0" id_section="12" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="62" name="1FG2" idNode_start="9" idNode_end="13" rotate="0" id_section="18" kind_structure="RC" isFoundation="TRUE" offset="0" level="0" type_haunch_H="BOTH"/>
+                <StbGirder id="63" name="1FG2" idNode_start="23" idNode_end="27" rotate="0" id_section="18" kind_structure="RC" isFoundation="TRUE" offset="0" level="0" type_haunch_H="BOTH"/>
+                <StbGirder id="64" name="2G2" idNode_start="44" idNode_end="45" rotate="0" id_section="6" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="65" name="2G2" idNode_start="45" idNode_end="46" rotate="0" id_section="6" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="66" name="2G2" idNode_start="46" idNode_end="47" rotate="0" id_section="6" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="67" name="2G2" idNode_start="47" idNode_end="48" rotate="0" id_section="6" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="68" name="2G2" idNode_start="58" idNode_end="59" rotate="0" id_section="6" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="69" name="2G2" idNode_start="59" idNode_end="60" rotate="0" id_section="6" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="70" name="2G2" idNode_start="60" idNode_end="61" rotate="0" id_section="6" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="71" name="2G2" idNode_start="61" idNode_end="62" rotate="0" id_section="6" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="72" name="3G2" idNode_start="79" idNode_end="80" rotate="0" id_section="8" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="73" name="3G2" idNode_start="80" idNode_end="81" rotate="0" id_section="8" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="74" name="3G2" idNode_start="81" idNode_end="82" rotate="0" id_section="8" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="75" name="3G2" idNode_start="82" idNode_end="83" rotate="0" id_section="8" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="76" name="3G2" idNode_start="93" idNode_end="94" rotate="0" id_section="8" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="77" name="3G2" idNode_start="94" idNode_end="95" rotate="0" id_section="8" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="78" name="3G2" idNode_start="95" idNode_end="96" rotate="0" id_section="8" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="79" name="3G2" idNode_start="96" idNode_end="97" rotate="0" id_section="8" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="80" name="RG2" idNode_start="114" idNode_end="115" rotate="0" id_section="10" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="81" name="RG2" idNode_start="115" idNode_end="116" rotate="0" id_section="10" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="82" name="RG2" idNode_start="116" idNode_end="117" rotate="0" id_section="10" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="83" name="RG2" idNode_start="117" idNode_end="118" rotate="0" id_section="10" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="84" name="RG2a" idNode_start="121" idNode_end="122" rotate="0" id_section="11" kind_structure="S" isFoundation="FALSE" offset="-125" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="85" name="RG2a" idNode_start="122" idNode_end="123" rotate="0" id_section="11" kind_structure="S" isFoundation="FALSE" offset="-125" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="86" name="RG2a" idNode_start="123" idNode_end="124" rotate="0" id_section="11" kind_structure="S" isFoundation="FALSE" offset="-125" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="87" name="RG2a" idNode_start="124" idNode_end="125" rotate="0" id_section="11" kind_structure="S" isFoundation="FALSE" offset="-125" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="88" name="RG2" idNode_start="128" idNode_end="129" rotate="0" id_section="10" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="89" name="RG2" idNode_start="129" idNode_end="130" rotate="0" id_section="10" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="90" name="RG2" idNode_start="130" idNode_end="131" rotate="0" id_section="10" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="91" name="RG2" idNode_start="131" idNode_end="132" rotate="0" id_section="10" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX" joint_start="1000" joint_end="1000"/>
+                <StbGirder id="92" name="PHRG2" idNode_start="157" idNode_end="158" rotate="0" id_section="13" kind_structure="S" isFoundation="FALSE" offset="-63" level="0" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="93" name="PHRG2" idNode_start="164" idNode_end="165" rotate="0" id_section="13" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="94" name="2CG1" idNode_start="176" idNode_end="44" rotate="0" id_section="14" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="95" name="2CG1" idNode_start="177" idNode_end="45" rotate="0" id_section="14" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="96" name="2CG1" idNode_start="178" idNode_end="46" rotate="0" id_section="14" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="97" name="2CG1" idNode_start="179" idNode_end="47" rotate="0" id_section="14" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="98" name="2CG1" idNode_start="180" idNode_end="48" rotate="0" id_section="14" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="99" name="3CG1" idNode_start="181" idNode_end="79" rotate="0" id_section="15" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="100" name="3CG1" idNode_start="182" idNode_end="80" rotate="0" id_section="15" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="101" name="3CG1" idNode_start="183" idNode_end="81" rotate="0" id_section="15" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="102" name="3CG1" idNode_start="184" idNode_end="82" rotate="0" id_section="15" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="103" name="3CG1" idNode_start="185" idNode_end="83" rotate="0" id_section="15" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="104" name="RCG1" idNode_start="186" idNode_end="114" rotate="0" id_section="16" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="105" name="RCG1" idNode_start="187" idNode_end="115" rotate="0" id_section="16" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="106" name="RCG1" idNode_start="188" idNode_end="116" rotate="0" id_section="16" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="107" name="RCG1" idNode_start="189" idNode_end="117" rotate="0" id_section="16" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbGirder id="108" name="RCG1" idNode_start="190" idNode_end="118" rotate="0" id_section="16" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+            </StbGirders>
+            <StbWalls/>
+            <StbPosts>
+                <StbPost id="109" name="1P1" idNode_bottom="191" idNode_top="192" rotate="90" id_section="19" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="-850" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="110" name="1P3" idNode_bottom="193" idNode_top="194" rotate="0" id_section="21" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="-850" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="111" name="1P2" idNode_bottom="195" idNode_top="196" rotate="0" id_section="20" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="0" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="112" name="1P5" idNode_bottom="197" idNode_top="198" rotate="0" id_section="23" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="-638" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="113" name="1P5" idNode_bottom="199" idNode_top="200" rotate="0" id_section="23" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="-638" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="114" name="1P5" idNode_bottom="201" idNode_top="202" rotate="0" id_section="23" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="-638" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="115" name="1P5" idNode_bottom="203" idNode_top="204" rotate="0" id_section="23" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="0" offset_top_X="0" offset_top_Y="0" offset_top_Z="-638" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="116" name="2P3" idNode_bottom="205" idNode_top="206" rotate="0" id_section="26" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="-150" offset_top_X="0" offset_top_Y="0" offset_top_Z="-738" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="117" name="2P5" idNode_bottom="207" idNode_top="208" rotate="0" id_section="28" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="-150" offset_top_X="0" offset_top_Y="0" offset_top_Z="-550" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="118" name="2P5" idNode_bottom="209" idNode_top="210" rotate="0" id_section="28" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="-150" offset_top_X="0" offset_top_Y="0" offset_top_Z="-550" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="119" name="2P5" idNode_bottom="211" idNode_top="212" rotate="0" id_section="28" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="-150" offset_top_X="0" offset_top_Y="0" offset_top_Z="-550" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="120" name="2P5" idNode_bottom="213" idNode_top="214" rotate="0" id_section="28" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="-150" offset_top_X="0" offset_top_Y="0" offset_top_Z="-550" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="121" name="3P3" idNode_bottom="215" idNode_top="216" rotate="0" id_section="31" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="-150" offset_top_X="0" offset_top_Y="0" offset_top_Z="-738" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="122" name="3P5" idNode_bottom="217" idNode_top="218" rotate="0" id_section="33" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="-150" offset_top_X="0" offset_top_Y="0" offset_top_Z="-550" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="123" name="3P5" idNode_bottom="219" idNode_top="220" rotate="0" id_section="33" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="-150" offset_top_X="0" offset_top_Y="0" offset_top_Z="-550" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="124" name="3P5" idNode_bottom="221" idNode_top="222" rotate="0" id_section="33" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="-150" offset_top_X="0" offset_top_Y="0" offset_top_Z="-550" condition_bottom="FIX" condition_top="FIX"/>
+                <StbPost id="125" name="3P5" idNode_bottom="223" idNode_top="224" rotate="0" id_section="33" kind_structure="S" offset_X="0" offset_Y="0" offset_bottom_X="0" offset_bottom_Y="0" offset_bottom_Z="-150" offset_top_X="0" offset_top_Y="0" offset_top_Z="-550" condition_bottom="FIX" condition_top="FIX"/>
+            </StbPosts>
+            <StbBeams>
+                <StbBeam id="126" name="FB1" idNode_start="225" idNode_end="226" rotate="0" id_section="49" kind_structure="RC" isFoundation="TRUE" offset="0" level="0"/>
+                <StbBeam id="127" name="FB1" idNode_start="227" idNode_end="228" rotate="0" id_section="49" kind_structure="RC" isFoundation="TRUE" offset="0" level="0"/>
+                <StbBeam id="128" name="FB1" idNode_start="229" idNode_end="230" rotate="0" id_section="49" kind_structure="RC" isFoundation="TRUE" offset="0" level="0"/>
+                <StbBeam id="129" name="FB1" idNode_start="231" idNode_end="232" rotate="0" id_section="49" kind_structure="RC" isFoundation="TRUE" offset="0" level="0"/>
+                <StbBeam id="130" name="B6" idNode_start="233" idNode_end="234" rotate="0" id_section="44" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="131" name="B6" idNode_start="235" idNode_end="236" rotate="0" id_section="44" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="132" name="B9" idNode_start="237" idNode_end="238" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="133" name="B9" idNode_start="239" idNode_end="240" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="134" name="B9" idNode_start="241" idNode_end="242" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="135" name="B9" idNode_start="243" idNode_end="244" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="136" name="B6" idNode_start="245" idNode_end="246" rotate="0" id_section="44" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="137" name="B6" idNode_start="247" idNode_end="248" rotate="0" id_section="44" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="138" name="B9" idNode_start="249" idNode_end="250" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="139" name="B9" idNode_start="251" idNode_end="252" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="140" name="B9" idNode_start="253" idNode_end="254" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="141" name="B9" idNode_start="255" idNode_end="256" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="142" name="B6" idNode_start="257" idNode_end="258" rotate="0" id_section="44" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="143" name="B9" idNode_start="259" idNode_end="260" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="144" name="B9" idNode_start="261" idNode_end="262" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="145" name="B9" idNode_start="263" idNode_end="264" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="146" name="B9" idNode_start="265" idNode_end="266" rotate="0" id_section="47" kind_structure="S" isFoundation="FALSE" offset="0" level="0" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="147" name="B3" idNode_start="267" idNode_end="268" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="148" name="B5" idNode_start="269" idNode_end="270" rotate="0" id_section="43" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" offset_start_X="0" offset_start_Y="0" offset_start_Z="-150" offset_end_X="150" offset_end_Y="0" offset_end_Z="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="149" name="B5" idNode_start="271" idNode_end="272" rotate="0" id_section="43" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="150" name="B3" idNode_start="273" idNode_end="274" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="151" name="B3" idNode_start="275" idNode_end="276" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="152" name="B3" idNode_start="277" idNode_end="278" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="153" name="B2" idNode_start="279" idNode_end="280" rotate="0" id_section="40" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="154" name="B2" idNode_start="281" idNode_end="282" rotate="0" id_section="40" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="155" name="B2" idNode_start="283" idNode_end="284" rotate="0" id_section="40" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="156" name="B3" idNode_start="285" idNode_end="286" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="157" name="B1" idNode_start="287" idNode_end="288" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="158" name="B1" idNode_start="289" idNode_end="290" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="159" name="B1" idNode_start="291" idNode_end="292" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="160" name="B1" idNode_start="293" idNode_end="294" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="161" name="B3" idNode_start="295" idNode_end="296" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="162" name="B1" idNode_start="297" idNode_end="298" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="163" name="B1" idNode_start="299" idNode_end="300" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="164" name="B1" idNode_start="301" idNode_end="302" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="165" name="B1" idNode_start="303" idNode_end="304" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="166" name="B1" idNode_start="305" idNode_end="306" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="167" name="B3" idNode_start="307" idNode_end="308" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="168" name="B2" idNode_start="309" idNode_end="310" rotate="0" id_section="40" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="169" name="B2" idNode_start="311" idNode_end="312" rotate="0" id_section="40" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="170" name="B2" idNode_start="313" idNode_end="314" rotate="0" id_section="40" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="171" name="B5" idNode_start="315" idNode_end="316" rotate="0" id_section="43" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="172" name="B1" idNode_start="317" idNode_end="318" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="173" name="B5" idNode_start="319" idNode_end="320" rotate="0" id_section="43" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="174" name="B3" idNode_start="321" idNode_end="322" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="175" name="B3" idNode_start="323" idNode_end="324" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="176" name="B3" idNode_start="325" idNode_end="326" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="177" name="B3" idNode_start="327" idNode_end="328" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="178" name="B1" idNode_start="329" idNode_end="330" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="179" name="B1" idNode_start="331" idNode_end="332" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="180" name="B1" idNode_start="333" idNode_end="334" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="181" name="B1" idNode_start="335" idNode_end="336" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="182" name="B3" idNode_start="337" idNode_end="338" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="183" name="B3" idNode_start="339" idNode_end="340" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" offset_start_X="0" offset_start_Y="0" offset_start_Z="-150" offset_end_X="87.5" offset_end_Y="0" offset_end_Z="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="184" name="B3" idNode_start="341" idNode_end="342" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="185" name="B1" idNode_start="343" idNode_end="344" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="186" name="B1" idNode_start="345" idNode_end="346" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="187" name="B1" idNode_start="347" idNode_end="348" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="188" name="B1" idNode_start="349" idNode_end="350" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="189" name="B3" idNode_start="351" idNode_end="352" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="190" name="B1" idNode_start="353" idNode_end="354" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="191" name="B1" idNode_start="355" idNode_end="356" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="192" name="B1" idNode_start="357" idNode_end="358" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="193" name="B1" idNode_start="359" idNode_end="360" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="194" name="B1" idNode_start="361" idNode_end="362" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="195" name="B3" idNode_start="363" idNode_end="364" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="196" name="B1" idNode_start="365" idNode_end="366" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="197" name="B1" idNode_start="367" idNode_end="368" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="198" name="B1" idNode_start="369" idNode_end="370" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="199" name="B1" idNode_start="371" idNode_end="372" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="200" name="B1" idNode_start="373" idNode_end="374" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="201" name="B3" idNode_start="375" idNode_end="376" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="202" name="B1" idNode_start="377" idNode_end="378" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="203" name="B1" idNode_start="379" idNode_end="380" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="204" name="B1" idNode_start="381" idNode_end="382" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="205" name="B3" idNode_start="383" idNode_end="384" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="206" name="B1" idNode_start="385" idNode_end="386" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="207" name="B1" idNode_start="387" idNode_end="388" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="208" name="B1" idNode_start="389" idNode_end="390" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="209" name="B3" idNode_start="391" idNode_end="392" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="210" name="B1" idNode_start="393" idNode_end="394" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="211" name="B1" idNode_start="395" idNode_end="396" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="212" name="B1" idNode_start="397" idNode_end="398" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="213" name="B3" idNode_start="399" idNode_end="400" rotate="0" id_section="41" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="FIX" condition_end="FIX"/>
+                <StbBeam id="214" name="B1" idNode_start="401" idNode_end="402" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="215" name="B1" idNode_start="403" idNode_end="404" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+                <StbBeam id="216" name="B1" idNode_start="405" idNode_end="406" rotate="0" id_section="39" kind_structure="S" isFoundation="FALSE" offset="0" level="-150" condition_start="PIN" condition_end="PIN"/>
+            </StbBeams>
+            <StbSlabs>
+                <StbSlab id="217" name="S1" id_section="53" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="9"/>
+                        <StbNodeid id="225"/>
+                        <StbNodeid id="226"/>
+                        <StbNodeid id="10"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="218" name="S1" id_section="53" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="225"/>
+                        <StbNodeid id="23"/>
+                        <StbNodeid id="24"/>
+                        <StbNodeid id="226"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="219" name="S1" id_section="53" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="10"/>
+                        <StbNodeid id="226"/>
+                        <StbNodeid id="228"/>
+                        <StbNodeid id="11"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="220" name="S1" id_section="53" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="226"/>
+                        <StbNodeid id="24"/>
+                        <StbNodeid id="25"/>
+                        <StbNodeid id="228"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="221" name="S1" id_section="53" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="11"/>
+                        <StbNodeid id="228"/>
+                        <StbNodeid id="230"/>
+                        <StbNodeid id="12"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="222" name="S1" id_section="53" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="228"/>
+                        <StbNodeid id="25"/>
+                        <StbNodeid id="26"/>
+                        <StbNodeid id="230"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="223" name="S1" id_section="53" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="12"/>
+                        <StbNodeid id="230"/>
+                        <StbNodeid id="232"/>
+                        <StbNodeid id="13"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="224" name="S1" id_section="53" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="230"/>
+                        <StbNodeid id="26"/>
+                        <StbNodeid id="27"/>
+                        <StbNodeid id="232"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="225" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="37"/>
+                        <StbNodeid id="44"/>
+                        <StbNodeid id="45"/>
+                        <StbNodeid id="38"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="226" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="44"/>
+                        <StbNodeid id="273"/>
+                        <StbNodeid id="274"/>
+                        <StbNodeid id="269"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="227" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="273"/>
+                        <StbNodeid id="275"/>
+                        <StbNodeid id="276"/>
+                        <StbNodeid id="274"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="228" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="275"/>
+                        <StbNodeid id="192"/>
+                        <StbNodeid id="278"/>
+                        <StbNodeid id="276"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="229" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="192"/>
+                        <StbNodeid id="51"/>
+                        <StbNodeid id="270"/>
+                        <StbNodeid id="278"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="113" offset_Y="0"/>
+                        <StbSlabOffset offset_X="150" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="230" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="269"/>
+                        <StbNodeid id="274"/>
+                        <StbNodeid id="280"/>
+                        <StbNodeid id="45"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="231" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="274"/>
+                        <StbNodeid id="276"/>
+                        <StbNodeid id="282"/>
+                        <StbNodeid id="280"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="232" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="276"/>
+                        <StbNodeid id="278"/>
+                        <StbNodeid id="284"/>
+                        <StbNodeid id="282"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="233" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="278"/>
+                        <StbNodeid id="270"/>
+                        <StbNodeid id="52"/>
+                        <StbNodeid id="284"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="150" offset_Y="0"/>
+                        <StbSlabOffset offset_X="113" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="234" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="38"/>
+                        <StbNodeid id="45"/>
+                        <StbNodeid id="46"/>
+                        <StbNodeid id="39"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="235" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="45"/>
+                        <StbNodeid id="280"/>
+                        <StbNodeid id="288"/>
+                        <StbNodeid id="46"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="236" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="280"/>
+                        <StbNodeid id="282"/>
+                        <StbNodeid id="290"/>
+                        <StbNodeid id="288"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="237" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="282"/>
+                        <StbNodeid id="284"/>
+                        <StbNodeid id="292"/>
+                        <StbNodeid id="290"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="238" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="284"/>
+                        <StbNodeid id="52"/>
+                        <StbNodeid id="53"/>
+                        <StbNodeid id="292"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="113" offset_Y="0"/>
+                        <StbSlabOffset offset_X="113" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="239" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="39"/>
+                        <StbNodeid id="46"/>
+                        <StbNodeid id="47"/>
+                        <StbNodeid id="40"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="240" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="46"/>
+                        <StbNodeid id="288"/>
+                        <StbNodeid id="298"/>
+                        <StbNodeid id="47"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="241" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="288"/>
+                        <StbNodeid id="290"/>
+                        <StbNodeid id="300"/>
+                        <StbNodeid id="298"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="242" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="290"/>
+                        <StbNodeid id="301"/>
+                        <StbNodeid id="302"/>
+                        <StbNodeid id="300"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="243" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="301"/>
+                        <StbNodeid id="303"/>
+                        <StbNodeid id="304"/>
+                        <StbNodeid id="302"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="244" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="303"/>
+                        <StbNodeid id="305"/>
+                        <StbNodeid id="306"/>
+                        <StbNodeid id="304"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="245" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="305"/>
+                        <StbNodeid id="60"/>
+                        <StbNodeid id="61"/>
+                        <StbNodeid id="306"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="246" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="40"/>
+                        <StbNodeid id="47"/>
+                        <StbNodeid id="48"/>
+                        <StbNodeid id="41"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="247" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="47"/>
+                        <StbNodeid id="298"/>
+                        <StbNodeid id="310"/>
+                        <StbNodeid id="319"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="248" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="298"/>
+                        <StbNodeid id="300"/>
+                        <StbNodeid id="312"/>
+                        <StbNodeid id="310"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="249" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="300"/>
+                        <StbNodeid id="302"/>
+                        <StbNodeid id="314"/>
+                        <StbNodeid id="312"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="250" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="302"/>
+                        <StbNodeid id="304"/>
+                        <StbNodeid id="320"/>
+                        <StbNodeid id="314"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="251" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="304"/>
+                        <StbNodeid id="306"/>
+                        <StbNodeid id="318"/>
+                        <StbNodeid id="316"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="252" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="306"/>
+                        <StbNodeid id="61"/>
+                        <StbNodeid id="62"/>
+                        <StbNodeid id="318"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="253" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="319"/>
+                        <StbNodeid id="310"/>
+                        <StbNodeid id="322"/>
+                        <StbNodeid id="48"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="254" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="310"/>
+                        <StbNodeid id="312"/>
+                        <StbNodeid id="324"/>
+                        <StbNodeid id="322"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="255" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="312"/>
+                        <StbNodeid id="314"/>
+                        <StbNodeid id="326"/>
+                        <StbNodeid id="324"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="256" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="314"/>
+                        <StbNodeid id="320"/>
+                        <StbNodeid id="316"/>
+                        <StbNodeid id="326"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="257" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="72"/>
+                        <StbNodeid id="79"/>
+                        <StbNodeid id="80"/>
+                        <StbNodeid id="73"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="258" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="79"/>
+                        <StbNodeid id="329"/>
+                        <StbNodeid id="338"/>
+                        <StbNodeid id="337"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="259" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="329"/>
+                        <StbNodeid id="331"/>
+                        <StbNodeid id="332"/>
+                        <StbNodeid id="330"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="260" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="331"/>
+                        <StbNodeid id="333"/>
+                        <StbNodeid id="334"/>
+                        <StbNodeid id="332"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="261" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="333"/>
+                        <StbNodeid id="86"/>
+                        <StbNodeid id="340"/>
+                        <StbNodeid id="339"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="113" offset_Y="0"/>
+                        <StbSlabOffset offset_X="87.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="262" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="337"/>
+                        <StbNodeid id="338"/>
+                        <StbNodeid id="330"/>
+                        <StbNodeid id="80"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="263" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="339"/>
+                        <StbNodeid id="340"/>
+                        <StbNodeid id="87"/>
+                        <StbNodeid id="334"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="87.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="113" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="264" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="73"/>
+                        <StbNodeid id="80"/>
+                        <StbNodeid id="81"/>
+                        <StbNodeid id="74"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="265" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="80"/>
+                        <StbNodeid id="330"/>
+                        <StbNodeid id="344"/>
+                        <StbNodeid id="81"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="266" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="330"/>
+                        <StbNodeid id="332"/>
+                        <StbNodeid id="346"/>
+                        <StbNodeid id="344"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="267" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="332"/>
+                        <StbNodeid id="334"/>
+                        <StbNodeid id="348"/>
+                        <StbNodeid id="346"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="268" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="334"/>
+                        <StbNodeid id="87"/>
+                        <StbNodeid id="88"/>
+                        <StbNodeid id="348"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="113" offset_Y="0"/>
+                        <StbSlabOffset offset_X="113" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="269" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="74"/>
+                        <StbNodeid id="81"/>
+                        <StbNodeid id="82"/>
+                        <StbNodeid id="75"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="270" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="81"/>
+                        <StbNodeid id="344"/>
+                        <StbNodeid id="354"/>
+                        <StbNodeid id="82"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="271" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="344"/>
+                        <StbNodeid id="346"/>
+                        <StbNodeid id="356"/>
+                        <StbNodeid id="354"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="272" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="346"/>
+                        <StbNodeid id="357"/>
+                        <StbNodeid id="358"/>
+                        <StbNodeid id="356"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="273" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="357"/>
+                        <StbNodeid id="359"/>
+                        <StbNodeid id="360"/>
+                        <StbNodeid id="358"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="274" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="359"/>
+                        <StbNodeid id="361"/>
+                        <StbNodeid id="362"/>
+                        <StbNodeid id="360"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="275" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="361"/>
+                        <StbNodeid id="95"/>
+                        <StbNodeid id="96"/>
+                        <StbNodeid id="362"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="276" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="75"/>
+                        <StbNodeid id="82"/>
+                        <StbNodeid id="83"/>
+                        <StbNodeid id="76"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="277" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="82"/>
+                        <StbNodeid id="354"/>
+                        <StbNodeid id="366"/>
+                        <StbNodeid id="83"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="278" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="354"/>
+                        <StbNodeid id="356"/>
+                        <StbNodeid id="368"/>
+                        <StbNodeid id="366"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="279" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="356"/>
+                        <StbNodeid id="358"/>
+                        <StbNodeid id="370"/>
+                        <StbNodeid id="368"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="280" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="358"/>
+                        <StbNodeid id="360"/>
+                        <StbNodeid id="372"/>
+                        <StbNodeid id="370"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="281" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="360"/>
+                        <StbNodeid id="362"/>
+                        <StbNodeid id="374"/>
+                        <StbNodeid id="372"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="282" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="362"/>
+                        <StbNodeid id="96"/>
+                        <StbNodeid id="97"/>
+                        <StbNodeid id="374"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="283" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="107"/>
+                        <StbNodeid id="114"/>
+                        <StbNodeid id="115"/>
+                        <StbNodeid id="108"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="284" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="114"/>
+                        <StbNodeid id="377"/>
+                        <StbNodeid id="378"/>
+                        <StbNodeid id="115"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="285" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="377"/>
+                        <StbNodeid id="379"/>
+                        <StbNodeid id="380"/>
+                        <StbNodeid id="378"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="286" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="379"/>
+                        <StbNodeid id="381"/>
+                        <StbNodeid id="382"/>
+                        <StbNodeid id="380"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="287" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="381"/>
+                        <StbNodeid id="121"/>
+                        <StbNodeid id="122"/>
+                        <StbNodeid id="382"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="288" name="DS2" id_section="50" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="121"/>
+                        <StbNodeid id="128"/>
+                        <StbNodeid id="129"/>
+                        <StbNodeid id="122"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="289" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="108"/>
+                        <StbNodeid id="115"/>
+                        <StbNodeid id="116"/>
+                        <StbNodeid id="109"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="290" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="115"/>
+                        <StbNodeid id="378"/>
+                        <StbNodeid id="386"/>
+                        <StbNodeid id="116"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="291" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="378"/>
+                        <StbNodeid id="380"/>
+                        <StbNodeid id="388"/>
+                        <StbNodeid id="386"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="292" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="380"/>
+                        <StbNodeid id="382"/>
+                        <StbNodeid id="390"/>
+                        <StbNodeid id="388"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="293" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="382"/>
+                        <StbNodeid id="122"/>
+                        <StbNodeid id="123"/>
+                        <StbNodeid id="390"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="294" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="109"/>
+                        <StbNodeid id="116"/>
+                        <StbNodeid id="117"/>
+                        <StbNodeid id="110"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="295" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="116"/>
+                        <StbNodeid id="386"/>
+                        <StbNodeid id="394"/>
+                        <StbNodeid id="117"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="296" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="386"/>
+                        <StbNodeid id="388"/>
+                        <StbNodeid id="396"/>
+                        <StbNodeid id="394"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="297" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="388"/>
+                        <StbNodeid id="390"/>
+                        <StbNodeid id="398"/>
+                        <StbNodeid id="396"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="298" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="390"/>
+                        <StbNodeid id="123"/>
+                        <StbNodeid id="124"/>
+                        <StbNodeid id="398"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="299" name="DS2" id_section="50" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="123"/>
+                        <StbNodeid id="130"/>
+                        <StbNodeid id="131"/>
+                        <StbNodeid id="124"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="300" name="CS1" id_section="55" kind_structure="RC" kind_slab="CANTI" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="110"/>
+                        <StbNodeid id="117"/>
+                        <StbNodeid id="118"/>
+                        <StbNodeid id="111"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-200" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="301" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="117"/>
+                        <StbNodeid id="394"/>
+                        <StbNodeid id="402"/>
+                        <StbNodeid id="118"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="302" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="394"/>
+                        <StbNodeid id="396"/>
+                        <StbNodeid id="404"/>
+                        <StbNodeid id="402"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.3" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="303" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="396"/>
+                        <StbNodeid id="398"/>
+                        <StbNodeid id="406"/>
+                        <StbNodeid id="404"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.5" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="304" name="DS1" id_section="52" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="398"/>
+                        <StbNodeid id="124"/>
+                        <StbNodeid id="125"/>
+                        <StbNodeid id="406"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="-0.8" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="305" name="DS2" id_section="50" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="124"/>
+                        <StbNodeid id="131"/>
+                        <StbNodeid id="132"/>
+                        <StbNodeid id="125"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="125" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+                <StbSlab id="306" name="DS2" id_section="50" kind_structure="RC" kind_slab="NORMAL" level="0" isFoundation="FALSE">
+                    <StbNodeid_List>
+                        <StbNodeid id="157"/>
+                        <StbNodeid id="164"/>
+                        <StbNodeid id="165"/>
+                        <StbNodeid id="158"/>
+                    </StbNodeid_List>
+                    <StbSlabOffset_List>
+                        <StbSlabOffset offset_X="63" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="0" offset_Y="0"/>
+                        <StbSlabOffset offset_X="63" offset_Y="0"/>
+                    </StbSlabOffset_List>
+                </StbSlab>
+            </StbSlabs>
+            <StbBraces>
+                <StbBrace id="307" name="RV1" idNode_start="122" idNode_end="164" rotate="0" id_section="56" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="FIX" condition_end="FIX"/>
+                <StbBrace id="308" name="RV1" idNode_start="157" idNode_end="129" rotate="0" id_section="56" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="FIX" condition_end="FIX"/>
+                <StbBrace id="309" name="RV1" idNode_start="123" idNode_end="165" rotate="0" id_section="56" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="FIX" condition_end="FIX"/>
+                <StbBrace id="310" name="RV1" idNode_start="158" idNode_end="130" rotate="0" id_section="56" kind_structure="S" offset_start_X="0" offset_start_Y="0" offset_start_Z="0" offset_end_X="0" offset_end_Y="0" offset_end_Z="0" condition_start="FIX" condition_end="FIX"/>
+            </StbBraces>
+        </StbMembers>
+        <StbSections>
+            <StbSecColumn_S id="1" name="C1" floor="1" kind_column="COLUMN" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="□-400x400x22x22" strength_main="SN490" strength_web="SN490"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="2" name="C1" floor="2" kind_column="COLUMN" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="□-400x400x16x32" strength_main="SN490" strength_web="SN490"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="3" name="C1" floor="3" kind_column="COLUMN" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="□-400x400x16x32" strength_main="SN490" strength_web="SN490"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="4" name="C10" floor="R" kind_column="COLUMN" direction="FALSE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="BH-250x250x9x14x0" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="19" name="P1" floor="1" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-100x100x6x8x8" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="20" name="P2" floor="1" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-148x100x6x9x11" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="21" name="P3" floor="1" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-150x150x7x10x11" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="22" name="P4" floor="1" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="○-90x7" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="23" name="P5" floor="1" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="○-100x10" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="24" name="P1" floor="2" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-100x100x6x8x8" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="25" name="P2" floor="2" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-148x100x6x9x11" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="26" name="P3" floor="2" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-150x150x7x10x11" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="27" name="P4" floor="2" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="○-90x7" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="28" name="P5" floor="2" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="○-100x10" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="29" name="P1" floor="3" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-100x100x6x8x8" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="30" name="P2" floor="3" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-148x100x6x9x11" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="31" name="P3" floor="3" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-150x150x7x10x11" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="32" name="P4" floor="3" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="○-90x7" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="33" name="P5" floor="3" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="○-100x10" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="34" name="P1" floor="R" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-100x100x6x8x8" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="35" name="P2" floor="R" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-148x100x6x9x11" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="36" name="P3" floor="R" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="H-150x150x7x10x11" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="37" name="P4" floor="R" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="○-90x7" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecColumn_S id="38" name="P5" floor="R" kind_column="POST" direction="TRUE" base_type="">
+                <StbSecSteelColumn pos="ALL" shape="○-100x10" strength_main="SN400" strength_web="SN400"/>
+            </StbSecColumn_S>
+            <StbSecBeam_RC id="17" name="FG1" floor="" kind_beam="GIRDER" isFoundation="TRUE" isCanti="FALSE" D_reinforcement_main="D25" D_stirrup="D13" D_reinforcement_web="D13" D_bar_spacing="D10" strength_concrete="FC24" strength_reinforcement_main="SD345" strength_reinforcement_2nd_main="SD295A" strength_stirrup="SD295A" strength_reinforcement_web="SD295A" strength_bar_spacing="SD295A" depth_cover_left="50" depth_cover_right="50" depth_cover_top="50" depth_cover_bottom="110">
+                <StbSecFigure>
+                    <StbSecHaunch width_start="500" depth_start="900" width_center="500" depth_center="900" width_end="500" depth_end="900"/>
+                </StbSecFigure>
+                <StbSecBar_Arrangement>
+                    <StbSecBeam_Start_Center_End_Section pos="START" count_main_top_1st="5" count_main_bottom_1st="4" count_stirrup="2" pitch_stirrup="200" count_web="2" count_bar_spacing="1" pitch_bar_spacing="1000"/>
+                    <StbSecBeam_Start_Center_End_Section pos="CENTER" count_main_top_1st="3" count_main_bottom_1st="4" count_stirrup="2" pitch_stirrup="200" count_web="2" count_bar_spacing="1" pitch_bar_spacing="1000"/>
+                    <StbSecBeam_Start_Center_End_Section pos="END" count_main_top_1st="5" count_main_bottom_1st="4" count_stirrup="2" pitch_stirrup="200" count_web="2" count_bar_spacing="1" pitch_bar_spacing="1000"/>
+                </StbSecBar_Arrangement>
+            </StbSecBeam_RC>
+            <StbSecBeam_RC id="18" name="FG2" floor="" kind_beam="GIRDER" isFoundation="TRUE" isCanti="FALSE" D_reinforcement_main="D25" D_stirrup="D13" D_reinforcement_web="D13" D_bar_spacing="D10" strength_concrete="FC24" strength_reinforcement_main="SD345" strength_reinforcement_2nd_main="SD295A" strength_stirrup="SD295A" strength_reinforcement_web="SD295A" strength_bar_spacing="SD295A" depth_cover_left="50" depth_cover_right="50" depth_cover_top="90" depth_cover_bottom="70">
+                <StbSecFigure>
+                    <StbSecHaunch width_start="400" depth_start="900" width_center="400" depth_center="900" width_end="400" depth_end="900"/>
+                </StbSecFigure>
+                <StbSecBar_Arrangement>
+                    <StbSecBeam_Start_Center_End_Section pos="START" count_main_top_1st="6" count_main_bottom_1st="3" count_stirrup="2" pitch_stirrup="200" count_web="2" count_bar_spacing="1" pitch_bar_spacing="1000"/>
+                    <StbSecBeam_Start_Center_End_Section pos="CENTER" count_main_top_1st="4" count_main_bottom_1st="3" count_stirrup="2" pitch_stirrup="200" count_web="2" count_bar_spacing="1" pitch_bar_spacing="1000"/>
+                    <StbSecBeam_Start_Center_End_Section pos="END" count_main_top_1st="6" count_main_bottom_1st="3" count_stirrup="2" pitch_stirrup="200" count_web="2" count_bar_spacing="1" pitch_bar_spacing="1000"/>
+                </StbSecBar_Arrangement>
+            </StbSecBeam_RC>
+            <StbSecBeam_RC id="49" name="FB1" floor="" kind_beam="BEAM" isFoundation="TRUE" isCanti="FALSE" D_reinforcement_main="D22" D_stirrup="D10" D_reinforcement_web="D10" D_bar_spacing="D10" strength_reinforcement_main="SD345" strength_stirrup="SD295A" strength_reinforcement_web="SD295A" strength_bar_spacing="SD295A">
+                <StbSecFigure>
+                    <StbSecStraight width="400" depth="600"/>
+                </StbSecFigure>
+                <StbSecBar_Arrangement>
+                    <StbSecBeam_Same_Section count_main_top_1st="3" count_main_bottom_1st="3" count_stirrup="2" pitch_stirrup="200" count_web="2" count_bar_spacing="1" pitch_bar_spacing="1000"/>
+                </StbSecBar_Arrangement>
+            </StbSecBeam_RC>
+            <StbSecBeam_S id="5" name="G1" floor="2" kind_beam="GIRDER" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-700x300x13x24x28" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="6" name="G2" floor="2" kind_beam="GIRDER" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-488x300x11x18x26" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="7" name="G1" floor="3" kind_beam="GIRDER" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-588x300x12x20x28" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="8" name="G2" floor="3" kind_beam="GIRDER" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-400x200x8x13x16" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="9" name="G1" floor="R" kind_beam="GIRDER" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-588x300x12x20x28" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="10" name="G2" floor="R" kind_beam="GIRDER" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-400x200x8x13x16" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="11" name="G2a" floor="R" kind_beam="GIRDER" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-250x250x9x14x12" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="12" name="G1" floor="PHR" kind_beam="GIRDER" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-200x100x5.5x8x11" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="13" name="G2" floor="PHR" kind_beam="GIRDER" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-300x150x6.5x9x13" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="14" name="CG1" floor="2" kind_beam="GIRDER" isCanti="TRUE">
+                <StbSecSteelBeam pos="ALL" shape="H-300x150x6.5x9x13" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="15" name="CG1" floor="3" kind_beam="GIRDER" isCanti="TRUE">
+                <StbSecSteelBeam pos="ALL" shape="H-300x150x6.5x9x13" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="16" name="CG1" floor="R" kind_beam="GIRDER" isCanti="TRUE">
+                <StbSecSteelBeam pos="ALL" shape="H-300x150x6.5x9x13" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="39" name="B1" floor="" kind_beam="BEAM" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-350x175x7x11x14" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="40" name="B2" floor="" kind_beam="BEAM" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-300x150x6.5x9x13" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="41" name="B3" floor="" kind_beam="BEAM" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-200x100x5.5x8x11" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="42" name="B4" floor="" kind_beam="BEAM" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-450x200x9x14x18" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="43" name="B5" floor="" kind_beam="BEAM" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-482x300x11x15x26" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="44" name="B6" floor="" kind_beam="BEAM" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-250x125x6x9x12" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="45" name="B7" floor="" kind_beam="BEAM" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="H-100x100x6x8x8" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="46" name="B8" floor="" kind_beam="BEAM" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="□-90x90x7x7" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="47" name="B9" floor="" kind_beam="BEAM" isCanti="FALSE">
+                <StbSecSteelBeam pos="ALL" shape="□-100x100x10x10" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecBeam_S id="48" name="CB1" floor="" kind_beam="BEAM" isCanti="TRUE">
+                <StbSecSteelBeam pos="ALL" shape="H-250x125x6x9x12" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBeam_S>
+            <StbSecSlab_RC id="50" name="DS2" isFoundation="FALSE" isCanti="FALSE" strength_concrete="">
+                <StbSecFigure>
+                    <StbSecStraight depth="150"/>
+                </StbSecFigure>
+                <StbSecBar_Arrangement>
+                    <StbSec1Way_Slab_1 pos="MAIN_TOP" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="MAIN_BOTTOM" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_TOP" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_BOTTOM" strength="SD295A" D="D10" pitch="200"/>
+                </StbSecBar_Arrangement>
+            </StbSecSlab_RC>
+            <StbSecSlab_RC id="51" name="CS2" isFoundation="FALSE" isCanti="TRUE" strength_concrete="">
+                <StbSecFigure>
+                    <StbSecStraight depth="150"/>
+                </StbSecFigure>
+                <StbSecBar_Arrangement>
+                    <StbSec1Way_Slab_1 pos="MAIN_TOP" strength="SD295A" D="D13" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="MAIN_BOTTOM" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_TOP" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_BOTTOM" strength="SD295A" D="D10" pitch="200"/>
+                </StbSecBar_Arrangement>
+            </StbSecSlab_RC>
+            <StbSecSlab_RC id="52" name="DS1" isFoundation="FALSE" isCanti="FALSE" strength_concrete="">
+                <StbSecFigure>
+                    <StbSecStraight depth="150"/>
+                </StbSecFigure>
+                <StbSecBar_Arrangement>
+                    <StbSec1Way_Slab_1 pos="MAIN_TOP" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="MAIN_BOTTOM" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_TOP" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_BOTTOM" strength="SD295A" D="D10" pitch="200"/>
+                </StbSecBar_Arrangement>
+            </StbSecSlab_RC>
+            <StbSecSlab_RC id="53" name="S1" isFoundation="FALSE" isCanti="FALSE" strength_concrete="">
+                <StbSecFigure>
+                    <StbSecStraight depth="150"/>
+                </StbSecFigure>
+                <StbSecBar_Arrangement>
+                    <StbSec1Way_Slab_1 pos="MAIN_TOP" strength="SD295A" D="D10D13" pitch="150"/>
+                    <StbSec1Way_Slab_1 pos="MAIN_BOTTOM" strength="SD295A" D="D10D13" pitch="150"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_TOP" strength="SD295A" D="D10D13" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_BOTTOM" strength="SD295A" D="D10D13" pitch="200"/>
+                </StbSecBar_Arrangement>
+            </StbSecSlab_RC>
+            <StbSecSlab_RC id="54" name="F1" isFoundation="FALSE" isCanti="FALSE" strength_concrete="">
+                <StbSecFigure>
+                    <StbSecStraight depth="500"/>
+                </StbSecFigure>
+                <StbSecBar_Arrangement>
+                    <StbSec1Way_Slab_1 pos="MAIN_TOP" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="MAIN_BOTTOM" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_TOP" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_BOTTOM" strength="SD295A" D="D10" pitch="200"/>
+                </StbSecBar_Arrangement>
+            </StbSecSlab_RC>
+            <StbSecSlab_RC id="55" name="CS1" isFoundation="FALSE" isCanti="TRUE" strength_concrete="">
+                <StbSecFigure>
+                    <StbSecStraight depth="200"/>
+                </StbSecFigure>
+                <StbSecBar_Arrangement>
+                    <StbSec1Way_Slab_1 pos="MAIN_TOP" strength="SD295A" D="D13" pitch="150"/>
+                    <StbSec1Way_Slab_1 pos="MAIN_BOTTOM" strength="SD295A" D="D10" pitch="150"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_TOP" strength="SD295A" D="D10" pitch="200"/>
+                    <StbSec1Way_Slab_1 pos="TRANSVERS_BOTTOM" strength="SD295A" D="D10" pitch="200"/>
+                </StbSecBar_Arrangement>
+            </StbSecSlab_RC>
+            <StbSecBrace_S id="56" name="V1" floor="R" kind_brace="VERTICAL">
+                <StbSecSteelBrace pos="ALL" shape="L-75x75x6" strength_main="SN400" strength_web="SN400"/>
+            </StbSecBrace_S>
+            <StbSecSteel>
+                <StbSecRoll-H name="H-700x300x13x24x28" type="H" A="700" B="300" t1="13" t2="24" r="28"/>
+                <StbSecRoll-H name="H-488x300x11x18x26" type="H" A="488" B="300" t1="11" t2="18" r="26"/>
+                <StbSecRoll-H name="H-588x300x12x20x28" type="H" A="588" B="300" t1="12" t2="20" r="28"/>
+                <StbSecRoll-H name="H-400x200x8x13x16" type="H" A="400" B="200" t1="8" t2="13" r="16"/>
+                <StbSecRoll-H name="H-250x250x9x14x12" type="H" A="250" B="250" t1="9" t2="14" r="12"/>
+                <StbSecRoll-H name="H-200x100x5.5x8x11" type="H" A="200" B="100" t1="5.5" t2="8" r="11"/>
+                <StbSecRoll-H name="H-300x150x6.5x9x13" type="H" A="300" B="150" t1="6.5" t2="9" r="13"/>
+                <StbSecRoll-H name="H-100x100x6x8x8" type="H" A="100" B="100" t1="6" t2="8" r="8"/>
+                <StbSecRoll-H name="H-148x100x6x9x11" type="H" A="148" B="100" t1="6" t2="9" r="11"/>
+                <StbSecRoll-H name="H-150x150x7x10x11" type="H" A="150" B="150" t1="7" t2="10" r="11"/>
+                <StbSecRoll-H name="H-350x175x7x11x14" type="H" A="350" B="175" t1="7" t2="11" r="14"/>
+                <StbSecRoll-H name="H-450x200x9x14x18" type="H" A="450" B="200" t1="9" t2="14" r="18"/>
+                <StbSecRoll-H name="H-482x300x11x15x26" type="H" A="482" B="300" t1="11" t2="15" r="26"/>
+                <StbSecRoll-H name="H-250x125x6x9x12" type="H" A="250" B="125" t1="6" t2="9" r="12"/>
+                <StbSecBuild-H name="BH-250x250x9x14x0" A="250" B="250" t1="9" t2="14"/>
+                <StbSecRoll-BOX name="□-400x400x22x22" type="ELSE" A="400" B="400" t="22" R="44"/>
+                <StbSecRoll-BOX name="□-400x400x16x32" type="ELSE" A="400" B="400" t="16" R="32"/>
+                <StbSecBuild-BOX name="□-90x90x7x7" A="90" B="90" t1="7" t2="7"/>
+                <StbSecBuild-BOX name="□-100x100x10x10" A="100" B="100" t1="10" t2="10"/>
+                <StbSecPipe name="○-90x7" D="90" t="7"/>
+                <StbSecPipe name="○-100x10" D="100" t="10"/>
+                <StbSecRoll-L name="L-75x75x6" type="L" A="75" B="75" t1="6" t2="6" r1="8.5" r2="4" side="TRUE"/>
+            </StbSecSteel>
+        </StbSections>
+    </StbModel>
+    <StbExtensions>
+        <StbExtension identifier="J-BIM-OCI" description="梁部材定義および梁ノードの外端・内端指定"/>
+    </StbExtensions>
+</ST_BRIDGE>  
