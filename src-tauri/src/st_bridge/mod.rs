@@ -17,7 +17,7 @@ pub struct StBridge {
 }
 
 impl StBridge {
-    pub fn members(&self) -> Vec<(&StbNode, &StbNode)> {
+    pub fn members(&self) -> Vec<(StbNode, StbNode)> {
         self.stb_model
             .stb_members
             .iter()

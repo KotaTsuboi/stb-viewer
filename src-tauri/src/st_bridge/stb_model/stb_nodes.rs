@@ -18,12 +18,12 @@ impl StbNodes {
         self.map.insert(key, value);
     }
 
-    pub fn get(&self, key: u32) -> Option<&StbNode> {
-        self.map.get(&key)
+    pub fn get(&self, key: u32) -> Option<StbNode> {
+        self.map.get(&key).cloned()
     }
 }
 
-#[derive(Debug, Serialize, Deserialize)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct StbNode {
     pub x: f64,
     pub y: f64,
@@ -32,7 +32,7 @@ pub struct StbNode {
     pub id_member: Option<u32>,
 }
 
-#[derive(Debug, EnumString, Serialize, Deserialize)]
+#[derive(Debug, Clone, EnumString, Serialize, Deserialize)]
 pub enum StbNodeKind {
     #[strum(serialize = "ON_GIRDER")]
     OnGirder,

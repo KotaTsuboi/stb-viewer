@@ -12,7 +12,7 @@ fn read_st_bridge(file_name: &str) -> StBridge {
 }
 
 #[tauri::command]
-fn members(st_bridge: StBridge) -> Vec<(&'static StbNode, &'static StbNode)> {
+fn members(st_bridge: StBridge) -> Vec<(StbNode, StbNode)> {
     st_bridge.members()
 }
 
