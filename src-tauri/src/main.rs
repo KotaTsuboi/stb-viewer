@@ -18,7 +18,7 @@ fn members(st_bridge: StBridge) -> Vec<(StbNode, StbNode)> {
 
 fn main() {
     tauri::Builder::default()
-        .invoke_handler(tauri::generate_handler![members])
+        .invoke_handler(tauri::generate_handler![read_st_bridge, members])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }

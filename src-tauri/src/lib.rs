@@ -218,11 +218,11 @@ fn extract_stb_members(stb_model_node: roxmltree::Node) -> StbMembers {
 
         match tag_name {
             "StbColumns" => stb_members.stb_columns = extract_stb_columns(node),
-            "StbPosts" => stb_members.stb_posts = extract_stb_posts(stb_members_node),
-            "StbGirders" => stb_members.stb_girders = extract_stb_girders(stb_members_node),
-            "StbBeams" => stb_members.stb_beams = extract_stb_beams(stb_members_node),
-            "StbBraces" => stb_members.stb_braces = extract_stb_braces(stb_members_node),
-            "StbSlabs" => stb_members.stb_slabs = extract_stb_slabs(stb_members_node),
+            "StbPosts" => stb_members.stb_posts = extract_stb_posts(node),
+            "StbGirders" => stb_members.stb_girders = extract_stb_girders(node),
+            "StbBeams" => stb_members.stb_beams = extract_stb_beams(node),
+            "StbBraces" => stb_members.stb_braces = extract_stb_braces(node),
+            "StbSlabs" => stb_members.stb_slabs = extract_stb_slabs(node),
             "StbWalls" => {}
             "StbFootings" => {}
             "StbStripFootings" => {}
@@ -817,11 +817,8 @@ pub fn extract_stb_extensions(root_node: roxmltree::Node) -> StbExtensions {
     StbExtensions { stb_extension_list }
 }
 
-fn parse_attribute<T: FromStr>(
-    name: &str,
-    node: roxmltree::Node,
-) -> Result<T, <T as FromStr>::Err> {
-    node.attribute(name).unwrap().to_lowercase().parse::<T>()
+fn parse_attribute<T: FromStr>(key: &str, node: roxmltree::Node) -> Result<T, <T as FromStr>::Err> {
+    node.attribute(key).unwrap().to_lowercase().parse::<T>()
 }
 
 fn parse_enum_attribute<T: FromStr>(

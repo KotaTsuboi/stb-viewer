@@ -22,8 +22,8 @@ function init() {
     const invoke = window.__TAURI__.invoke;
 
     let st_bridge;
-    invoke('read_st_bridge', {file_name: 'steel_standard_model.stb'}).then((stb) => st_bridge = stb);
-    invoke('members', {st_bridge: st_bridge}).then((v) => {console.log(v)});
+    invoke('read_st_bridge', {fileName: '/Users/Kota/rust/stb-viewer/steel_standard_model.stb'}).then((stb) => st_bridge = stb);
+    invoke('members', {stBridge: st_bridge}).then((v) => {console.log(v)});
 
     const points = [];
 
